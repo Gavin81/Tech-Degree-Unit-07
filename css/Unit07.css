@@ -1,5 +1,8 @@
+@charset "UTF-8";
 
-
+* {
+  box-sizing: border-box;
+}
 #navbar {
   border: 1px solid black;
 }
