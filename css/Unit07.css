@@ -30,7 +30,15 @@ border: 1px solid red;
 
   }
   h1 {
-    
+
   }
 
+}
+
+
+@media screen (min-width: 768px) {
+  
+}
+@media screen (min-width: 1024px) {
+  
 }
