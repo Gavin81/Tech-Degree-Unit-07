@@ -13,31 +13,83 @@
 
 }
 
-h1 {
-border: 1px solid red;
-}
-
 
 @media screen and (min-width: 320px) {
   
-  #navbar {
-    
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+            "header"
+            "navigation"
+            "main";
   }
-  #navbar ul {
+
+  .header {
+    grid-area: header;
+  }
+  .navbar {
+    grid-area: navigation;
+  }
+  .navbar ul {
 
   }
-  #navbar li {
+  .navbar li {
 
   }
-  h1 {
+  .sidebar-nav-icons {
 
+  }
+
+  .main {
+    grid-area: main;
+  }
+
+  .Dashboard-area {
+    border: 2px solid black;
+  }
+  .traffic-area {
+    border: 2px solid red;
+  }
+  .Daily {
+    border: 2px solid blue;
+  }
+  .mobile-users-area {
+    border: 2px solid green;
+  }
+  .Social-container-area {
+    border: 2px solid yellow;
+  }
+  .new-members-area {
+    border: 2px solid grey;
+  }
+  .recent-activity-area {
+    border: 2px solid turquoise;
+  }
+  .message-user-area {
+    border: 2px solid navy;
+  }
+  .settings-area {
+    border: 2px solid brown;
+  }
+  .form-field {
+    border: 2px solid royalblue;
+  }
+  .settings-button {
+    border: 2px solid red;
   }
 
 }
 
 
 @media screen (min-width: 768px) {
-  
+  .grid-container {
+    grid-template-columns: 55px 1fr;
+    grid-template-areas: 
+        "header header"
+        "navbar main";
+  }
 }
 @media screen (min-width: 1024px) {
   

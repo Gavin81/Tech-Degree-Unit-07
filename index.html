@@ -6,9 +6,9 @@
     <title>WebApp-Dashboard</title>
     <link rel="stylesheet" href="css/Unit07.css" type="text/css">
   </head>
-<body>
-<header>
-  <nav id="navbar">
+<body class="grid-container">
+<header class="header">
+  <nav class="navbar">
     <ul>
       <li class="title-logo">WebApp</li>
       <li class="bell-icon"></li>
@@ -18,12 +18,12 @@
   </nav>
 </header>
 <div class="sidebar-nav-icons">
-  <li class="home" img="" a-href=""></li>
+  <li class="home" img="" a-href="" placeholder=""></li>
   <li class="chart" img="" a-href=""></li>
   <li class="members" img="" a-href=""></li>
   <li class="settings" img="" a-href=""></li>
 </div>
-<main>
+<main class="main">
   <div>
 
     <div class="Dashboard-area">
@@ -46,20 +46,23 @@
         </ul>
       </div>
       <div class="widget-container-full">
-          <canvas id="traffic-chart"></canvas>
+        <img src="https://plchldr.co/i/250x190" alt="plchldr.co">
+        <canvas id="traffic-chart"></canvas>
       </div>
     </section>
 
     <section class="Daily">
       <h3>Daily Traffic</h3>
       <div class="widget-container-half">
+        <img src="https://plchldr.co/i/250x190" alt="plchldr.co">
         <canvas id="daily-chart"></canvas>
       </div>
     </section>
 
-    <section class="Mobile-Users-area">
+    <section class="mobile-users-area">
       <h3>Mobile Users</h3>
       <div class="widget-container-half">
+        <img src="https://plchldr.co/i/250x190" alt="plchldr.co">
         <canvas id="mobile-doughnut-chart"></canvas>
       </div>
     </section>
@@ -103,7 +106,7 @@
     </div>
 
 
-    <section class="New-Members-area">
+    <section class="new-members-area">
       <h3>New Members</h3>
 
       <div class="members-container">
@@ -148,7 +151,7 @@
     </section>
 
 
-    <section class="Recent-Activity-area">
+    <section class="recent-activity-area">
       <h3>Recent Activity</h3>
 
       <div class="members-container">
@@ -189,7 +192,7 @@
     </section>
 
 
-    <section class="Message-User-area">
+    <section class="message-user-area">
       <h3>Message User</h3>
       <form class="widget-container">
         <input type="text" placeholder="Search for user" class="form-field" id="userField">
@@ -198,7 +201,7 @@
       </form>
     </section>
 
-    <section class="Settings-area">
+    <section class="settings-area">
       <h3>Settings</h3>
       <!--ADD CSS TOGGLE CODE HERE-->
       <fieldset>
@@ -217,7 +220,7 @@
         </div>
       </fieldset>
       <!---->
-      
+
       <select class="form-field" id="timezone">
         <option disabled selected>Select a Timezone</option>
         <option>Eastern</option>
