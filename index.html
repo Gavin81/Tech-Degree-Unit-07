@@ -198,9 +198,59 @@
       </form>
     </section>
 
-    <div class="Settings-area">
-      <h1>Settings</h1>
-    </div>
+    <section class="Settings-area">
+      <h3>Settings</h3>
+      <!--ADD CSS TOGGLE CODE HERE-->
+      <fieldset>
+        <legend>View</legend>
+        <div class="switch-toggle switch-candy">
+          <input id="week" name="view" type="radio" checked>
+          <label for="week" onclick="">Week</label>
+      
+          <input id="month" name="view" type="radio">
+          <label for="month" onclick="">Month</label>
+      
+          <input id="day" name="view" type="radio">
+          <label for="day" onclick="">Day</label>
+      
+          <a></a>
+        </div>
+      </fieldset>
+      <!---->
+      
+      <select class="form-field" id="timezone">
+        <option disabled selected>Select a Timezone</option>
+        <option>Eastern</option>
+        <!--MORE OPTIONS-->
+        <div class="switch-toggle switch-candy">
+          <input id="hour3" name="view3" type="radio" checked>
+          <label for="hour3" onclick="">Hour</label>
+        
+          <input id="day3" name="view3" type="radio">
+          <label for="day3" onclick="">Day</label>
+        
+          <input id="week3" name="view3" type="radio">
+          <label for="week3" onclick="">Week</label>
+        
+          <input id="month3" name="view3" type="radio">
+          <label for="month3" onclick="">Month</label>
+        
+          <input id="year3" name="view3" type="radio">
+          <label for="year3" onclick="">Year</label>
+        
+          <input id="decade3" name="view3" type="radio">
+          <label for="decade3" onclick="">Decade</label>
+        
+          <a></a>
+        </div>
+        <!---->
+
+      </select>
+      <div class="settings-button">
+        <button class="button-primary" id="save">Save</button>
+        <button class="button-disabled" id="cancel">Cancel</button>
+      </div>
+    </section>
 
 
   </div>
