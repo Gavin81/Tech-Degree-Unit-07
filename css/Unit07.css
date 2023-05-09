@@ -80,6 +80,11 @@
     border: 2px solid red;
   }
 
+  .widget-container-full,
+  .widget-container-half {
+    width: 95vw;
+  }
+
 }
 
 
@@ -103,7 +108,22 @@
   .message-user-area {
     grid-column: 1 / span 1;
   }
+
+  .mobile-users-area,
+  .recent-activity-area,
+  .settings-area {
+    grid-column: 2 / span 1;
+  }
+
+  .widget-container-full {
+    width: 90vw;
+  }
+  .widget-container-half {
+    width: 45vw;
+  }
+
 }
+
 
 
 @media screen (min-width: 1024px) {
