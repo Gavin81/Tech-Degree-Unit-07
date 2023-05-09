@@ -40,8 +40,22 @@ let trafficOptions = {
     }
 };
 
+
+
 let trafficChart = new Chart(trafficCanvas, {
     type: 'line',
     data: trafficData,
     options: trafficOptions
 });
+
+
+const dailyCanvas = document.getElementById("daily-chart");
+const dailyData = {
+    labels: ["S", "M", "T", "W", "T", "F", "S"],
+    datasets: [{
+        label: '# of hits',
+        data: [75, 115, 175, 125, 225, 200, 100],
+        backgroundColor: '#7477BF',
+        borderWidth: 1
+    }]
+};
