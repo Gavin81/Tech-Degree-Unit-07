@@ -59,3 +59,16 @@ const dailyData = {
         borderWidth: 1
     }]
 };
+
+const dailyOptions = {
+    scales: {
+        y: {
+            beginAtZero: true
+        }
+    },
+    plugins: {
+        legend: {
+            display: false
+        }
+    }
+};
