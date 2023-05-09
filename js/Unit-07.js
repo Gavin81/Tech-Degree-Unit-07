@@ -40,7 +40,7 @@ let trafficOptions = {
     }
 };
 
-let traffiChart = new Chart(trafficCanvas, {
+let trafficChart = new Chart(trafficCanvas, {
     type: 'line',
     data: trafficData,
     options: trafficOptions
