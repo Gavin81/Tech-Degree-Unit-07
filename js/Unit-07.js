@@ -25,7 +25,7 @@ let trafficOptions = {
     backgroundColor: 'rgba(112, 104, 201, .5)',
     fill: true,
     aspectRatio: 2.5,
-    animation {
+    animation: {
         duration: 0
     },
     scales: {
@@ -116,3 +116,8 @@ let mobileChart = new Chart(mobileCanvas, {
     data: mobileData,
     options: mobileOptions
 });
+
+
+const user = document.getElementById("userField");
+const message = document.getElementById("messageField");
+const send = document.getElementById("send");
