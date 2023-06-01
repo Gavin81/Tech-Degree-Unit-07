@@ -78,9 +78,11 @@
   }
   .sidebar-nav-icons li {
     border: 1px solid green;
+    list-style: none;
+    height: 50px;
   }
   .sidebar-nav-icons .home {
-    
+    border: 2px solid blue;
   }
 
   .main {
