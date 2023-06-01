@@ -74,7 +74,13 @@
   }
 
   .sidebar-nav-icons {
-
+    border: 1px solid red;
+  }
+  .sidebar-nav-icons li {
+    border: 1px solid green;
+  }
+  .sidebar-nav-icons .home {
+    
   }
 
   .main {
