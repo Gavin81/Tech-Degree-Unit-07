@@ -31,6 +31,8 @@
   }
   .navbar {
     border: 1px solid black;
+    display: flex;
+    align-items: ;
     background-color: #207e7e;
     grid-area: navigation;
     height: 50px;
@@ -77,12 +79,28 @@
     border: 1px solid red;
   }
   .sidebar-nav-icons li {
-    border: 1px solid green;
+    display: inline-block;
     list-style: none;
-    height: 50px;
+    margin: 5px 5px;    
   }
   .sidebar-nav-icons .home {
-    border: 2px solid blue;
+    
+  }
+  .sidebar-nav-icons .home img {
+    height: 30px;
+    width: 30px;
+  }
+  .sidebar-nav-icons .chart img {
+    height: 30px;
+    width: 30px;
+  }
+  .sidebar-nav-icons .members img {
+    height: 30px;
+    width: 30px;
+  }
+  .sidebar-nav-icons .settings img {
+    height: 30px;
+    width: 30px;
   }
 
   .main {
