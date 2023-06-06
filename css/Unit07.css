@@ -33,13 +33,13 @@
 
   /* The main navbar */
   .navbar {
-    border: 1px solid black;
+    border: 2px solid blue;
     background-color: #207e7e;
     grid-area: navigation;
     height: 50px;
   }
   .navbar ul {
-    /* list-style-type: none; */
+    list-style-type: none;
     display: flex;
     align-items: center;
     margin: 0;
@@ -50,6 +50,7 @@
     border: 1px solid yellow;
   }
   .navbar .title-logo {
+    color: whitesmoke;
     font-size: 20px;
     padding: 10px 20px 14px 10px;
   }
@@ -61,33 +62,38 @@
 
   }
   .navbar .student img {
-    border: 1px solid red;
+    border: ;
     border-radius: 20px 20px;
     height: 30px;
     width: 30px;
     margin: 8px 8px;
   }
   .navbar .student {
-    border: 1px solid black;
-    color: black;
+    border: ;
+    color: whitesmoke;
     font-size: 15px;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 0;
+    padding: 0 0 0px 0;
   }
   /* ................................. */
 
   .sidebar-nav-icons {
     border: 1px solid red;
+    background-color: lightgray;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
   }
   .sidebar-nav-icons li {
-    display: inline-block;
+    border: 1px solid blue;
     list-style: none;
-    margin: 5px 5px;    
+    margin: 5px auto;
   }
   .sidebar-nav-icons .home {
-    
+  
   }
   .sidebar-nav-icons .home img {
+    color: white;
     height: 30px;
     width: 30px;
   }
@@ -110,6 +116,9 @@
 
   .Dashboard-area {
     border: 2px solid black;
+  }
+  .Dashboard-area .headline {
+    font-family: candara;
   }
   .traffic-area {
     border: 2px solid red;
