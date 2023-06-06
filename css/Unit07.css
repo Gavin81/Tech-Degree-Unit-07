@@ -31,8 +31,6 @@
   }
   .navbar {
     border: 1px solid black;
-    display: flex;
-    align-items: ;
     background-color: #207e7e;
     grid-area: navigation;
     height: 50px;
@@ -44,9 +42,8 @@
     overflow: hidden;
   }
   .navbar li {
-    /* border: 1px solid black; */
-    display: inline;
-    float: left;
+    border: 1px solid red;
+    display: ;
   }
   .navbar .title-logo {
     font-size: 20px;
@@ -68,8 +65,7 @@
   }
   .navbar .student {
     border: 1px solid black;
-    display: block;
-    color: white;
+    color: black;
     font-size: 15px;
     margin: 0;
     padding: 0;
