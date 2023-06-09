@@ -52,7 +52,7 @@
     border: ;
   }
   .navbar .title-logo {
-    font-family: 'cinzel';
+    font-family: Cinzel;
     color: whitesmoke;
     font-size: 20px;
     padding: 10px 20px 14px 10px;
@@ -76,12 +76,14 @@
     display: flex;
     align-items: center;
     color: whitesmoke;
+    font-family: Cinzel;
     font-size: 15px;
     margin: 0 0 0 10px;
     padding: 0 10px 0 20px;
   }
   /* ................................. */
 
+  
   .sidebar-nav-icons {
     border: ;
     background-color: hsl(180, 58%, 51%);
@@ -128,7 +130,7 @@
     border: 1px solid red;
     margin: 0;
     padding: 10px 0 10px 5px;
-    font-family: candara;
+    font-family: Cinzel;
   }
   .Dashboard-area .tab {
     
