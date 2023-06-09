@@ -95,7 +95,7 @@
     border: ;
     list-style: none;
     margin: 5px auto;
-    padding: 5px;
+    padding: 5px 0 0 0;
   }
   .sidebar-nav-icons .home {
   
@@ -125,7 +125,7 @@
 
  
   .Dashboard-area {
-    border: 2px solid black;
+    border: 2px solid hsl(180, 58%, 51%);
   }
   .Dashboard-area h2 {
     margin: 0;
@@ -137,19 +137,44 @@
     
   }
   .alert {
-    border: 1px solid blue;
+    border: ;
     margin: 0;
     padding: 0;
   }
   .alert-banner-close {
-    border: 1px solid red;
+    border: ;
     display: flex;
-    align-items: right;
+    align-items: ;
   }
 
   .traffic-area {
-    border: ;
+    border: 1px solid black;
   }
+  .traffic-header {
+    border: 1px solid blue;
+  }
+  .traffic-header h3 {
+    border: 1px solid red;
+    font-family: Cinzel;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+  .traffic-nav {
+    border: 1px solid red;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    list-style: none;
+  }
+  .traffic-nav li {
+    display: flex;
+    margin: 0 auto;
+    align-items: ;
+    padding: 5px;
+  }
+
+
   .Daily {
     border: 2px solid blue;
   }
