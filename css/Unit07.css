@@ -137,11 +137,11 @@
     margin: 0;
     padding: 5px 5px;
     font-family: Cinzel;
-    font-size: 18px;
+    font-size: 20px;
   }
   .Dashboard-area .tab {
-    border: ;
-    background-color: lightgrey;
+    border: lightgray;
+    background-color: silver;
     flex: 1 0 100%;
     padding: 10px;
   }
@@ -149,9 +149,15 @@
     width: 100%;
   }
   .alert {
-    border: ;
-    margin: 0;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: hsl(180, 58%, 51%);
+    color: white;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0 15px 0;
     padding: 0;
+    text-align: center;
   }
   .alert-banner-close {
     border: ;
@@ -160,10 +166,10 @@
   }
 
   .traffic-area {
-    border: 1px solid black;
+    border: 1px solid blue;
   }
   .traffic-header {
-    border: 1px solid blue;
+    border: ;
   }
   .traffic-header h3 {
     border: 1px solid red;
@@ -173,13 +179,14 @@
     padding: 0 0 0 5px;
   }
   .traffic-nav {
-    border: 1px solid red;
+    border: 1px solid green;
     display: flex;
     margin: 0;
     align-items: center;
     list-style: none;
   }
   .traffic-nav li {
+    border: 1px solid red;
     display: flex;
     margin: 0 auto;
     align-items: ;
@@ -188,22 +195,22 @@
 
 
   .Daily {
-    border: 2px solid blue;
+    border: ;
   }
   .mobile-users-area {
-    border: 2px solid green;
+    border: ;
   }
   .Social-container-area {
-    border: 2px solid yellow;
+    border: ;
   }
   .new-members-area {
-    border: 2px solid grey;
+    border: ;
   }
   .recent-activity-area {
-    border: 2px solid turquoise;
+    border: ;
   }
   .message-user-area {
-    border: 2px solid navy;
+    border: ;
   }
   .settings-area {
     border: ;
