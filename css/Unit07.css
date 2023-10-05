@@ -31,6 +31,9 @@
   .header {
     grid-area: header;
   }
+  p {
+    margin: 0;
+  }
 
 
   /* The main navbar */
@@ -159,9 +162,15 @@
     padding: 0;
     text-align: center;
   }
+  .alert-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   .alert-banner-close {
     border: ;
     display: flex;
+    margin: 0;
     align-items: ;
   }
 
