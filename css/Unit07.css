@@ -31,10 +31,22 @@
   .header {
     grid-area: header;
   }
-  /* p {
-    margin: 0;
-  } */
+  h1 {
 
+  }
+  h2 {
+
+  }
+  h3 {
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 20px;
+  }
+  p {
+  
+  }
+  a {
+
+  }
 
   /* The main navbar */
   .navbar {
@@ -190,8 +202,8 @@
   }
   .traffic-header h3 {
     border: 1px solid red;
-    font-family: Cinzel;
-    font-size: 15px;
+    font-family: ;
+    font-size: ;
     margin: 0;
     padding: 0 0 0 10px;
   }
