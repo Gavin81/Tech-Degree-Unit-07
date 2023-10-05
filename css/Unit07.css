@@ -31,9 +31,9 @@
   .header {
     grid-area: header;
   }
-  p {
+  /* p {
     margin: 0;
-  }
+  } */
 
 
   /* The main navbar */
@@ -151,6 +151,9 @@
   .tab input {
     width: 100%;
   }
+
+
+
   .alert {
     border: 1px solid red;
     border-radius: 5px;
@@ -160,7 +163,7 @@
     height: 40px;
     margin: 5px 0 15px 0;
     padding: 0;
-    text-align: center;
+    text-align: ;
   }
   .alert-banner {
     display: flex;
@@ -173,6 +176,8 @@
     margin: 0;
     align-items: ;
   }
+
+
 
   .traffic-area {
     border: 1px solid blue;
