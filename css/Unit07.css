@@ -223,6 +223,9 @@
     align-items: ;
     padding: 5px;
   }
+  #traffic-chart {
+    border: 1px dotted red;
+  }
 
 
   .Daily {

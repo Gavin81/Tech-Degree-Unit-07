@@ -1,4 +1,5 @@
 const alertBanner = document.getElementById("alert");
+
 alertBanner.innerHTML = `<div class="alert-banner">
 <p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks to complete</p>
 <p class="alert-banner-close">x</p>
@@ -11,6 +12,9 @@ alertBanner.addEventListener('click', e => {
     }
 });
 
+
+
+let trafficCanvas = document.getElementById('traffic-chart');
 let trafficData = {
     labels: ["16-22", "23-29", "30-5", "6-12", "13-19", "20-26", "27-3", "4-10",
 "11-17", "18-24", "25-31"],
@@ -20,6 +24,7 @@ let trafficData = {
         borderWidth: 1,
     }]
 };
+
 
 let trafficOptions = {
     backgroundColor: 'rgba(112, 104, 201, .5)',
@@ -43,10 +48,11 @@ let trafficOptions = {
 
 
 let trafficChart = new Chart(trafficCanvas, {
-    type: 'line',
+    type: "line",
     data: trafficData,
     options: trafficOptions
 });
+
 
 
 const dailyCanvas = document.getElementById("daily-chart");
