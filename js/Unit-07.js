@@ -87,7 +87,7 @@ let dailyChart = new Chart(dailyCanvas, {
 });
 
 
-const mobileCanvas = document.getElementById("daily-chart");
+const mobileCanvas = document.getElementById("mobile-doughnut-chart");
 const mobileData = {
     labels: ["Desktop", "Tablet", "Phones"],
     datasets: [{
