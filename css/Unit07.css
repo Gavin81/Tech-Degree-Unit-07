@@ -16,6 +16,7 @@
 }
 
 
+/* Mobile css */
 @media screen and (min-width: 320px) {
   
   .grid-container {
@@ -228,12 +229,19 @@
   }
 
 
+
   .Daily {
-    border: ;
+    border: 1px solid red;
   }
+
+
+
   .mobile-users-area {
-    border: ;
+    border: 1px solid green;
   }
+
+
+
   .Social-container-area {
     border: ;
   }
@@ -264,6 +272,7 @@
 }
 
 
+/* Tablet css */
 @media screen (min-width: 768px) {
   .main {
     display: grid;
