@@ -196,9 +196,11 @@
 
 
   .traffic-area {
-    border: 1px solid blue;
+    border: ;
+    border-bottom: 1px solid lightgrey;
     width: 100%;
     margin: 0;
+    padding: 10px 0 15px 0;
   }
   .traffic-header {
     border: ;
@@ -209,13 +211,13 @@
     padding: 5px 0 5px 0;
   }
   .traffic-nav {
-    border: 1px solid green;
+    border: ;
     display: flex;
     align-items: ;
     list-style: none;
   }
   .traffic-nav li {
-    border: 1px solid red;
+    border: ;
     font-family: 'Martel-Sans', sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -225,26 +227,76 @@
     padding: 5px;
   }
   #traffic-chart {
-    border: 1px dotted red;
+    border: ;
   }
 
 
 
   .Daily {
-    border: 1px solid red;
+    border: ;
+    border-bottom: 1px solid lightgrey;
+    margin: 0;
+    padding: 10px 0 15px 0;
+    width: 100%;
   }
+  .Daily H3 {
+
+  }
+
 
 
 
   .mobile-users-area {
-    border: 1px solid green;
-  }
-
-
-
-  .Social-container-area {
     border: ;
+    border-bottom: 1px solid lightgrey;
+    margin: 0;
+    padding: 10px 0 15px 0;
+    width: 100%;
   }
+  .mobile-users-area H3 {
+
+  }
+
+
+
+  .social-container-area {
+    border: 1px solid blue;
+    margin: 0;
+    width: 100%;
+  }
+  .social-container-area h1{
+    border: 1px solid red;
+    font-size: 19px;
+    font-family: 'Martel-Sans', sans-serif;
+    font-weight: 100;
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
+
+
+  .social-container-facebook {
+    border: 1px solid blue;
+    background-color: rgb(226, 220, 220);
+    height: 100px;
+  }
+  .social-container-facebook svg {
+    border: 1px solid red;
+    width: 50%;
+  }
+  .facebook-path-1 {
+    fill: blue;
+  }
+  .social-image {
+    float: left;
+  }
+  .social-text {
+
+  }
+  .social-text p {
+
+  }
+
+
   .new-members-area {
     border: ;
   }
