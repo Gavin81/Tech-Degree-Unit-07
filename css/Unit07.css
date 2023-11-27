@@ -260,17 +260,17 @@
 
 
   .social-container-area {
-    border: 1px solid blue;
+    border: ;
     margin: 0;
     width: 100%;
   }
   .social-container-area h1{
-    border: 1px solid red;
-    font-size: 19px;
+    border: ;
+    font-size: 16px;
     font-family: 'Martel-Sans', sans-serif;
     font-weight: 100;
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 15px 0 15px 10px;
   }
 
 
@@ -288,6 +288,10 @@
     width: ;
     height: ;
     padding: 0;
+  }
+  .social-container-facebook img {
+    margin: 1em auto;
+    width: 20%;
   }
   .facebook-path-1 {
     fill: blue;
