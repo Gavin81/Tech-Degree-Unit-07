@@ -276,24 +276,36 @@
 
   .social-container-facebook {
     border: 1px solid blue;
-    background-color: rgb(226, 220, 220);
+    border-radius: 5px;
+    margin: auto;
+    width: 95%;
+    background-color: rgb(233, 221, 221);
     height: 100px;
   }
   .social-container-facebook svg {
     border: 1px solid red;
-    width: 50%;
+    margin: 0;
+    width: ;
+    height: ;
+    padding: 0;
   }
   .facebook-path-1 {
     fill: blue;
   }
   .social-image {
-    float: left;
+    float: ;
   }
-  .social-text {
-
+  .social-container-facebook .social-text {
+    border: 5px solid green;
+    margin: ;
+    display: ;
+    width: ;
   }
   .social-text p {
-
+    border: ;
+    font-family: 'MArtel-Sans', sans-serif;
+    color: rgb(92, 92, 206);
+    text-align: ;
   }
 
 
