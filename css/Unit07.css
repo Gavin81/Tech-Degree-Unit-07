@@ -260,7 +260,7 @@
 
 
   .social-container-area {
-    border: ;
+    border: 2px solid grey;
     margin: 0;
     width: 100%;
   }
@@ -282,32 +282,23 @@
     background-color: rgb(233, 221, 221);
     height: 100px;
   }
-  .social-container-facebook svg {
-    border: 1px solid red;
-    margin: 0;
-    width: ;
-    height: ;
-    padding: 0;
-  }
-  .social-container-facebook img {
-    margin: 1em auto;
-    width: 20%;
-  }
-  .facebook-path-1 {
-    fill: blue;
-  }
-  .social-image {
-    float: ;
+  .social-container-facebook .social-image {
+    border:;
+    float: left;
+    width: 95px;
+    height: 95px;
+    padding: 5px 5px 5px 5px;
   }
   .social-container-facebook .social-text {
-    border: 5px solid green;
-    margin: ;
-    display: ;
-    width: ;
+    border: 1px solid green;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    padding: 0 0 0 10px;
   }
-  .social-text p {
+  .social-container-facebook .social-text p {
     border: ;
-    font-family: 'MArtel-Sans', sans-serif;
+    font-family: 'Martel-Sans', sans-serif;
     color: rgb(92, 92, 206);
     text-align: ;
   }
