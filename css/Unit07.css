@@ -256,9 +256,9 @@
   }
 
 
-
+/* SOCIAL CONTAINER AREA */
   .social-container-area {
-    border-bottom: 2px solid lightgrey;
+    border-bottom: ;
     margin: 0;
     width: 100%;
     padding: 20px 0 20px 0;
@@ -279,6 +279,8 @@
   .social-container-twitter {
     border: 2px solid lightgrey;
   }
+
+  /* SOCIAL CONTAINER FACEBOOK */
   .social-container-facebook {
     border: ;
     border-radius: 5px;
@@ -321,7 +323,7 @@
   }
 
 
-
+/* SOCIAL CONTAINER INSTAGRAM */
   .social-container-instagram {
     border: ;
     border-radius: 5px;
@@ -361,6 +363,7 @@
   }
 
 
+  /* SOCIAL CONTAINER TWITTER */
   .social-container-twitter {
     border: ;
     border-radius: 5px;
@@ -397,9 +400,11 @@
   }
   
 
-
+  /* NEW MEMBERS AREA */
   .new-members-area {
-    border: 1px solid red;
+    border: ;
+    border-top: 2px solid lightgrey;
+    border-width: 100%;
     margin: 0 auto;
     display: block;
     width: 100%;
@@ -411,12 +416,18 @@
     font-size: 17px;
     font-weight: 500;
   }
-  .members-container {
+  .new-members-area .members-container {
     border: ;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: ;
     padding: 10px 0 14px 0;
   }
-  .members-container img {
+  #border-top {
+    border-top: 2px solid lightgrey;
+    margin: 0 auto;
+    display: block;
+    width: 95%;
+  }
+  .new-members-area .members-container img {
     border: ;
     border-radius: 70px;
     margin: 0 auto;
@@ -424,39 +435,146 @@
     height: 85px;
     width: 85px;
   }
-  .members-container .members-text {
+  .new-members-area .members-container .members-text {
     border: ;
   }
-  .members-container .members-text h3 {
+  .new-members-area .members-container .members-text h3 {
     margin: 0;
     padding: 0;
     font-size: 15px;
     text-align: center;
   }
-  .members-container .members-text a {
+  .new-members-area .members-container .members-text a {
     border: ;
     margin: 0;
     display: block;
     text-align: center;
   }
-  .members-container .members-text p {
+  .new-members-area .members-container .members-text p {
     margin: 0;
     text-align: center;
   }
 
 
 
-
-
+  /* RECENT ACTIVITY AREA */
   .recent-activity-area {
-    border: 1px solid blue;
+    border: ;
+    border-top: 2px solid lightgrey;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
   }
+  .recent-activity-area h3 {
+    border: ;
+    margin: 0;
+    padding: 13px 0 10px 10px;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+  }
+  .recent-activity-area .members-container {
+    border: ;
+    padding: 24px 0 24px 0;
+  }
+  .recent-activity-area .members-container img {
+    border: ;
+    border-radius: 70px;
+    margin: 0 auto;
+    display: block;
+    height: 85px;
+    width: 85px;
+  }
+  .recent-activity-area .members-text {
+    border: ;
+  }
+  .recent-activity-area .members-text p {
+    border: ;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+  /* MESSAGE USER AREA */
   .message-user-area {
     border: ;
+    width: 100%;
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    padding: 13px 0 15px 0;
   }
+  .message-user-area h3 {
+    border: ;
+    margin: 0;
+    padding: 0px 0 15px 12px;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .message-user-area .widget-container {
+    border: ;
+    margin: 0 auto;
+    display: block;
+    width: 95%;
+  }
+  .message-user-area .widget-container input {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    background-color: #ededed;
+    height: 50px;
+    width: 100%;
+  }
+  .message-user-area .widget-container .form-field {
+    font-size: 15px;
+    padding: 0 0 0 10px;
+  }
+  .message-user-area .widget-container textarea {
+    border: 2px solid lightgrey;
+    margin: 15px auto;
+    display: block;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+  }
+  .message-user-area .widget-container #messageField {
+    border: ;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 15px;
+    padding: 10px 0 0 10px;
+    background-color: #ededed;
+  }
+  .message-user-area #send {
+    border: none;
+    border-radius: 5px;
+    background-color: #8282ee;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 18px;
+    font-weight: ;
+    color: white;
+  }
+
+
+  /* SETTINGS AREA */
   .settings-area {
+    border: 1px solid red;
+  }
+  .settings-area h3 {
+
+  }
+  .settings-area fieldset {
     border: ;
   }
+  .settings-area legend {
+    
+  }
+
+
+
   .form-field {
     border: 2px solid royalblue;
   }
