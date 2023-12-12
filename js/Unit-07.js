@@ -124,6 +124,7 @@ let mobileChart = new Chart(mobileCanvas, {
 });
 
 
+// MESSAGE USER AREA
 const user = document.getElementById("userField");
 const message = document.getElementById("messageField");
 const send = document.getElementById("send");
@@ -138,3 +139,7 @@ send.addEventListener('click', () => {
         alert(`Message successfully sent to: ${user.value}`);
     }
 });
+
+
+
+// SETTINGS AREA
