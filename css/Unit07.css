@@ -205,6 +205,8 @@
   }
   .traffic-header h3 {
     border: ;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 5px 0 5px 0;
   }
@@ -237,8 +239,10 @@
     padding: 10px 0 15px 0;
     width: 100%;
   }
-  .Daily H3 {
-
+  .Daily h3 {
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
   }
 
 
@@ -251,8 +255,10 @@
     padding: 10px 0 15px 0;
     width: 100%;
   }
-  .mobile-users-area H3 {
-
+  .mobile-users-area h3 {
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
   }
 
 
@@ -577,31 +583,54 @@
 
   /* THE SETTINGS TOGGLE AREA */
   .settings-toggle-area {
-    border: 2px solid green;
+    border: ;
     margin: 0;
+    padding: 0;
+    height: auto;
+  }
+  .toggle-1 {
+    border: ;
     display: flex;
     flex-direction: row;
-    height: 130px;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 0px;
+    width: ;
+  }
+  .toggle-2 {
+    border: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 3px 0 0 0;
+    padding: 0 0 0 0px;
+    width: ;
   }
   .settings-toggle {
-    border: 1px solid red;
-    display: block;
+    border: 2px solid lightgrey;
     -webkit-appearance: none;
-    position: ;
-    float: ;
-    width: 50px;
-    height: 30px;
+    position: relative;
+    width: 80px;
+    height: 34px;
     border-radius: 25px;
-    background-color: #ccc;
+    background-color: red;
     transition: background .3s;
     outline: none;
     cursor: pointer;
+  }
+  .settings-toggle-area label {
+    border: ;
+    padding: 8px 65px 0 10px;
+    margin: 0;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 15px;
+    height: auto;
   }
   .settings-toggle::after {
     content: '';
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 22%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     height: 1.25rem;

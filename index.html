@@ -64,7 +64,7 @@
 
 
     <section class="Daily">
-      <h3>DAILY TRAFFIC</h3>
+      <h3><strong>DAILY TRAFFIC</strong></h3>
       <div class="widget-container-half">
         
         <canvas id="daily-chart"></canvas>
@@ -74,7 +74,7 @@
 
 
     <section class="mobile-users-area">
-      <h3>MOBILE USERS</h3>
+      <h3><strong>MOBILE USERS</strong></h3>
       <div class="widget-container-half">
         <img src="https://plchldr.co/i/250x190" alt="plchldr.co">
 
@@ -85,7 +85,7 @@
 
 
     <div class="social-container-area">
-      <h1>SOCIAL STATS</h1>
+      <h1><strong>SOCIAL STATS</strong></h1>
 
       <!-- FACEBOOK -->
       <section class="social-container-facebook">
@@ -138,7 +138,7 @@
 
     <!-- NEW MEMBERS AREA -->
     <section class="new-members-area">
-      <h3>NEW MEMBERS</h3>
+      <h3><strong>NEW MEMBERS</strong></h3>
 
       <div class="members-container">
         <img src="images/member-1.jpg" class="profile-image">
@@ -184,7 +184,7 @@
 
     <!-- RECENT ACTIVITY -->
     <section class="recent-activity-area">
-      <h3>RECENT ACTIVITY</h3>
+      <h3><strong>RECENT ACTIVITY</strong></h3>
 
       <div class="members-container">
         <img src="images/member-1.jpg" class="profile-image">
@@ -226,7 +226,7 @@
 
     <!-- MESSAGE USER AREA -->
     <section class="message-user-area">
-      <h3>MESSAGE USER</h3>
+      <h3><strong>MESSAGE USER</strong></h3>
       <form class="widget-container">
         <input type="text" placeholder="Search for user" class="form-field" id="userField">
         <textarea placeholder="Message for user" class="form-area" id="messageField"></textarea>
@@ -237,18 +237,22 @@
 
     <!-- SETTINGS AREA -->
     <section class="settings-area">
-      <h3>SETTINGS</h3>
+      <h3><strong>SETTINGS</strong></h3>
 
       <!--ADD CSS TOGGLE CODE HERE-->
       <div class="settings-toggle-area">
-        <label for="Email">Send Email notifications</label>
-        <input class="settings-toggle" type="checkbox">
+        <div class="toggle-1">
+          <label for="Email">Send Email Notifications</label>
+          <input class="settings-toggle" type="checkbox">
+        </div>
 
-        <label for="Profile-To-Public">Set Profile to Public</label>
-        <input class="settings-toggle" type="checkbox">
+        <div class="toggle-2">
+          <label for="Profile-To-Public">Set Profile to Public</label>
+          <input class="settings-toggle" type="checkbox">
+        </div>
       </div>
 
-      <fieldset>
+      <!-- <fieldset>
         <legend>View</legend>
         <div class="switch-toggle switch-candy">
           <input id="week" name="view" type="radio" checked>
@@ -262,7 +266,7 @@
       
           <a></a>
         </div>
-      </fieldset>
+      </fieldset> -->
       <!---->
 
       <select class="form-field" id="timezone">
