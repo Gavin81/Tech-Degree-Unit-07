@@ -594,7 +594,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0 0 10px 0;
-    padding: 0 0 0 0px;
+    padding: 0;
     width: ;
   }
   .toggle-2 {
@@ -654,8 +654,19 @@
 
 
 
-  .form-field {
-    border: 2px solid royalblue;
+  .form-field.timezone {
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px 0 10px 10px;
+    width: 95%;
+    height: 50px;
+    color:grey;
+    font-size: 15px;
+  }
+  .form-field.timezone option {
+    border: 1px solid green;
   }
   .settings-button {
     border: ;
