@@ -51,7 +51,8 @@
   /* The main navbar */
   .navbar {
     border: ;
-    background-color: #207e7e;
+    background-color: #8282ee;
+    /* #207e7e */
     grid-area: navigation;
     height: 50px;
   }
@@ -101,7 +102,8 @@
 
   .sidebar-nav-icons {
     border: ;
-    background-color: hsl(180, 58%, 51%);
+    background-color: #414177;
+    /* hsl(180, 58%, 51%) */
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -112,11 +114,14 @@
     margin: 5px auto;
     padding: 5px 0 0 0;
   }
+  .sidebar-nav-icons img {
+    color: ;
+  }
   .sidebar-nav-icons .home {
-  
+    
   }
   .sidebar-nav-icons .home img {
-    color: white;
+    color: ;
     height: 30px;
     width: 30px;
   }
@@ -132,6 +137,8 @@
     height: 30px;
     width: 30px;
   }
+
+
 
   .main {
     grid-area: main;
@@ -170,7 +177,8 @@
 
   .alert {
     border-radius: 5px;
-    background-color: hsl(180, 58%, 51%);
+    background-color: #8282ee;
+    /* hsl(180, 58%, 51%) */
     color: white;
     width: 100%;
     height: 100%;
@@ -192,7 +200,7 @@
   }
 
 
-
+/* TRAFFIC AREA */
   .traffic-area {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -204,9 +212,10 @@
     border: ;
   }
   .traffic-header h3 {
-    border: ;
-    font-family: 'Martel-Sans', sans-serif;
-    font-size: 16px;
+    border: 1px solid red;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
     margin: 0;
     padding: 5px 0 5px 0;
   }
@@ -231,7 +240,7 @@
   }
 
 
-
+/* DAILY TRAFFIC AREA */
   .Daily {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -240,14 +249,14 @@
     width: 100%;
   }
   .Daily h3 {
-    font-family: 'Martel-Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
   }
 
 
 
-
+/* MOBILE USERS AREA */
   .mobile-users-area {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -256,9 +265,9 @@
     width: 100%;
   }
   .mobile-users-area h3 {
-    font-family: 'Martel-Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 200;
   }
 
 
@@ -274,8 +283,8 @@
     margin: 0 auto;
     width: 95%;
     font-size: 16px;
-    font-family: 'Martel-Sans', sans-serif;
-    font-weight: 400;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 200;
     padding: 15px 0 15px 0;
   }
 
@@ -285,6 +294,7 @@
   .social-container-twitter {
     border: 2px solid lightgrey;
   }
+
 
   /* SOCIAL CONTAINER FACEBOOK */
   .social-container-facebook {
@@ -418,9 +428,9 @@
   .new-members-area h3 {
     margin: 0;
     padding: 10px;
-    font-family: 'Martel-Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 200;
   }
   .new-members-area .members-container {
     border: ;
@@ -475,9 +485,9 @@
     border: ;
     margin: 0;
     padding: 13px 0 10px 10px;
-    font-family: 'Martel-Sans', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 200;
   }
   .recent-activity-area .members-container {
     border: ;
@@ -514,9 +524,9 @@
     border: ;
     margin: 0;
     padding: 0 0 15px 12px;
-    font-family: 'Martel-Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
   }
   .message-user-area .widget-container {
     border: ;
@@ -567,7 +577,7 @@
 
   /* SETTINGS AREA */
   .settings-area {
-    border: 1px solid red;
+    border: ;
     margin: 0 auto;
     display: block;
     width: 100%;
@@ -575,10 +585,10 @@
   .settings-area h3 {
     border: ;
     margin: 0;
-    font-family: 'Martel-Sans', sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 15px 0 15px 12px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 15px 0 15px 9px;
   }
 
   /* THE SETTINGS TOGGLE AREA */
@@ -609,6 +619,7 @@
   .settings-toggle {
     border: 2px solid lightgrey;
     -webkit-appearance: none;
+    margin-right: 10px;
     position: relative;
     width: 80px;
     height: 34px;
@@ -668,8 +679,38 @@
   .form-field.timezone option {
     border: 1px solid green;
   }
+
+
+  /* SETTINGS BUTTON AREA */
   .settings-button {
     border: ;
+    margin: 0 auto;
+    word-spacing: 18px;
+    text-align: center;
+    padding: 14px 0 20px 0;
+  }
+  #save {
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    background-color: #8282ee;
+    width: 186px;
+    height: 55px;
+    margin: 0;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: ;
+  }
+  #cancel {
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    background-color: grey;
+    color: white;
+    width: 186px;
+    height: 55px;
+    margin: 0;
+    font-family: 'Martel-Sans', sans-serif;
+    font-size: 17px;
   }
 
   .widget-container-full,
