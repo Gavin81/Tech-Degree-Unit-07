@@ -70,19 +70,25 @@
   }
   .navbar .title-logo {
     border: ;
-    font-family: Cinzel;
+    font-family: 'Martel Sans';
     color: whitesmoke;
     font-size: 20px;
     margin: 0;
-    padding: 10px 30px 14px 10px;
+    padding: 10px 30px 5px 10px;
+  }
+  .title-logo sup {
+    border: ;
+    font-size: 9px;
   }
   .navbar .bell-icon {
     border: ;
     margin: 0;
+    stroke: white;
+    padding: 0;
     padding: 12px 14px;
   }
-  .navbar #notifications {
-
+  .navbar .bell-icon img {
+    stroke: white;
   }
   .navbar .student img {
     border: ;
