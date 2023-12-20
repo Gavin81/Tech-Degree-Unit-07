@@ -83,12 +83,12 @@
   .navbar .bell-icon {
     border: ;
     margin: 0;
-    stroke: white;
+    fill: white;
     padding: 0;
     padding: 12px 14px;
   }
-  .navbar .bell-icon img {
-    stroke: white;
+  .bell-icon img {
+    fill: white;
   }
   .navbar .student img {
     border: ;
