@@ -48,22 +48,29 @@
 
   }
 
+
+
   /* The main navbar */
   .navbar {
     border: ;
     background-color: #8282ee;
     /* #207e7e */
     grid-area: navigation;
-    height: 50px;
+    height: auto;
     margin: 0;
+    padding: 0;
   }
   .navbar ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
     overflow: hidden;
+  }
+  #item-1 {
+    margin-right: ;
   }
   .navbar li {
     border: ;
@@ -72,9 +79,9 @@
     border: ;
     font-family: 'Martel Sans';
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 19px;
     margin: 0;
-    padding: 10px 30px 5px 10px;
+    padding: 10px 40px 5px 10px;
   }
   .title-logo sup {
     border: ;
@@ -83,12 +90,19 @@
   .navbar .bell-icon {
     border: ;
     margin: 0;
-    fill: white;
-    padding: 0;
-    padding: 12px 14px;
+    padding: 12px 20px;
   }
   .bell-icon img {
-    fill: white;
+
+  }
+  #notifications {
+    border: ;
+    position: relative;
+    right: -15px;
+    width: 0;
+    padding: 3px;
+    border-radius: 40%;
+    background-color: greenyellow;
   }
   .navbar .student img {
     border: ;
@@ -99,19 +113,23 @@
   }
   .navbar .student {
     border: ;
-    border-left: 1px solid lightgrey;
+    border-left: 1px solid hsl(0, 4%, 64%);
     border-width: 1px;
     display: flex;
     align-items: center;
     color: whitesmoke;
     font-family: Cinzel;
-    font-size: 15px;
+    font-size: 14px;
     margin: 0;
-    padding: 0 10px 0 5px;
+    padding: 0 50px 0 10px;
+    width: auto;
+    height: auto;
   }
   /* ................................. */
 
 
+
+  /* SIDE NAVBAR */
   .sidebar-nav-icons {
     border: ;
     background-color: #414177;
@@ -149,7 +167,7 @@
     height: 30px;
     width: 30px;
   }
-
+/* ........................ */
 
 
   .main {

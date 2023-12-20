@@ -16,12 +16,15 @@
   </head>
 <body class="grid-container">
 <header class="header">
-  <nav class="navbar">
+  <nav class="navbar" id="container">
     <ul>
-      <li class="title-logo">WebApp<sup>TM</sup></li>
+      <li id="item-1" class="title-logo">WebApp<sup>TM</sup></li>
+      <li id="item-2" class="bell-icon">
         <div id="notifications"></div>
-      <li class="bell-icon"><img src="images/bell.svg" height="20px" width="20px"></li>
-      <li class="student"><img src="images/member-1.jpg" height="20px" width="20px">Student Name</li>
+        <img src="images/bell.svg" height="20px" width="20px">
+        <!-- <div id="notifications"></div> -->
+      </li>
+      <li id="item-3" class="student"><img src="images/member-1.jpg" height="20px" width="20px">Student Name</li>
     </ul>
   </nav>
 </header>
@@ -37,7 +40,7 @@
     <h2 class="headline">Dashboard</h2>
     <div class="tab">
       <input type="text"/>
-    </div>    
+    </div>
 
     <div class="alert" id="alert">
 
