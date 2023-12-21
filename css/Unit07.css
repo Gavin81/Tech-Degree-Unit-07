@@ -61,6 +61,7 @@
     padding: 0;
   }
   .navbar ul {
+    border: ;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +71,7 @@
     overflow: hidden;
   }
   #item-1 {
-    margin-right: ;
+    
   }
   .navbar li {
     border: ;
@@ -89,8 +90,8 @@
   }
   .navbar .bell-icon {
     border: ;
-    margin: 0;
-    padding: 12px 20px;
+    margin: 0 -50px 0 0;
+    padding: 20px 10px 0 10px;
   }
   .bell-icon img {
 
@@ -107,8 +108,8 @@
   .navbar .student img {
     border: ;
     border-radius: 20px 20px;
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     margin: 8px 8px;
   }
   .navbar .student {
@@ -118,10 +119,10 @@
     display: flex;
     align-items: center;
     color: whitesmoke;
-    font-family: Cinzel;
+    font-family: 'Martel Sans';
     font-size: 14px;
-    margin: 0;
-    padding: 0 50px 0 10px;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 0 10px;
     width: auto;
     height: auto;
   }
@@ -184,28 +185,30 @@
   }
   .Dashboard-area {
     /* border: 2px solid hsl(180, 58%, 51%); */
+    margin: 0;
   }
   .Dashboard-area h2 {
     border: ;
+    width: 34%;
     margin: 0;
-    padding: 5px 5px;
-    font-family: Cinzel;
+    padding: 10px 10px;
+    font-family: 'Martel Sans';
+    font-weight: 600;
     font-size: 20px;
   }
   .Dashboard-area .tab {
-    border: lightgray;
-    background-color: silver;
-    flex: 1 0 100%;
+    border: 2px solid lightgrey;
+    background-color: #ededed;
+    flex: 1 0 40%;
     margin: 0;
-    padding: 10px;
+    padding: 30px;
   }
-  .tab input {
-    width: 100%;
-  }
+  
 
 
 
   .alert {
+    border: ;
     border-radius: 5px;
     background-color: #8282ee;
     /* hsl(180, 58%, 51%) */
@@ -213,10 +216,10 @@
     font-size: 16px;
     font-weight: 200;
     color: white;
-    width: 100%;
+    width: 95%;
     height: 100%;
     margin: 15px 0 15px 0;
-    padding: 10px 10px;
+    padding: 7px 10px;
   }
   .alert-banner {
     display: flex;
@@ -227,7 +230,6 @@
     margin: 0;
   }
   .alert-banner-close {
-    /* display: flex; */
     margin: 0;
     align-items: ;
   }
@@ -248,15 +250,24 @@
     border: ;
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
     margin: 0;
     padding: 5px 0 5px 0;
   }
   .traffic-nav {
     border: ;
+    margin: 0;
+    padding: 0 0 10px 0;
     display: flex;
-    align-items: ;
+    flex-wrap: row;
     list-style: none;
+  }
+  .traffic-nav .active {
+    border: ;
+    border-radius: 18px;
+    background-color: green;
+    color: white;
+    padding: 9px 18px;
   }
   .traffic-nav li {
     border: ;
@@ -284,7 +295,7 @@
   .Daily h3 {
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
   }
 
 
@@ -300,7 +311,7 @@
   .mobile-users-area h3 {
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
   }
 
 
@@ -311,13 +322,13 @@
     width: 100%;
     padding: 20px 0 20px 0;
   }
-  .social-container-area h3{
+  .social-container-area h3 {
     border: ;
     margin: 0 auto;
     width: 95%;
     font-size: 17px;
     font-family: 'Martel Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     padding: 15px 0 15px 0;
   }
 
@@ -463,7 +474,7 @@
     padding: 10px;
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
   }
   .new-members-area .members-container {
     border: ;
@@ -520,7 +531,7 @@
     padding: 13px 0 10px 10px;
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
   }
   .recent-activity-area .members-container {
     border: ;
@@ -559,7 +570,7 @@
     padding: 0 0 15px 12px;
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
   }
   .message-user-area .widget-container {
     border: ;
@@ -620,7 +631,7 @@
     margin: 0;
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 600;
     padding: 15px 0 15px 9px;
   }
 
