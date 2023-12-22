@@ -6,7 +6,7 @@
 
 
 #navbar {
-  border: 1px solid black;
+  
 }
 #navbar ul {
 
@@ -20,6 +20,7 @@
 @media screen and (min-width: 320px) {
   
   .grid-container {
+    margin: 0;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: auto;
@@ -635,6 +636,8 @@
     padding: 15px 0 15px 9px;
   }
 
+
+
   /* THE SETTINGS TOGGLE AREA */
   .settings-toggle-area {
     border: ;
@@ -668,7 +671,7 @@
     width: 87px;
     height: 34px;
     border-radius: 25px;
-    background-color: red;
+    background-color: #8282ee;
     transition: background .3s;
     outline: none;
     cursor: pointer;
@@ -682,10 +685,12 @@
     height: auto;
   }
   .settings-toggle::after {
+    border: 2px solid lightgrey;
     content: '';
     position: absolute;
     top: 50%;
-    left: 22%;
+    left: ;
+    right: -2%;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     height: 1.25rem;
@@ -694,10 +699,11 @@
     transition: left .3s;
   }
   .settings-toggle:checked {
-    background-color: rgb(141, 221, 141);
+    background-color: ;
   }
   .settings-toggle:checked::after {
-    left: 70%;
+    left: 19%;
+    right: ;
   }
 
   .settings-area fieldset {
