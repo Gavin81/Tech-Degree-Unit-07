@@ -169,7 +169,7 @@
     height: 30px;
     width: 30px;
   }
-/* ........................ */
+
 
 
   .main {
@@ -236,7 +236,7 @@
   }
 
 
-/* TRAFFIC AREA */
+  /* TRAFFIC AREA */
   .traffic-area {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -285,7 +285,7 @@
   }
 
 
-/* DAILY TRAFFIC AREA */
+  /* DAILY TRAFFIC AREA */
   .Daily {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -301,7 +301,7 @@
 
 
 
-/* MOBILE USERS AREA */
+  /* MOBILE USERS AREA */
   .mobile-users-area {
     border: ;
     border-bottom: 1px solid lightgrey;
@@ -316,7 +316,7 @@
   }
 
 
-/* SOCIAL CONTAINER AREA */
+  /* SOCIAL CONTAINER AREA */
   .social-container-area {
     border-bottom: ;
     margin: 0;
@@ -384,7 +384,7 @@
   }
 
 
-/* SOCIAL CONTAINER INSTAGRAM */
+  /* SOCIAL CONTAINER INSTAGRAM */
   .social-container-instagram {
     border: ;
     border-radius: 5px;
