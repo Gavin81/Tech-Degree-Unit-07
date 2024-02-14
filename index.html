@@ -244,16 +244,20 @@
       
       <div class="settings-toggle-area">
 
-        <div class="toggle-1">
-          <label for="Email">Send Email Notifications</label>
-          <input class="settings-toggle" type="checkbox">
-          <span class="labels-on-off" data-on="ON" data-off="OFF"></span>
-        </div>
+        <label class="toggle" for="Email">Send Email Notifications
+          <input type="checkbox">
+          <span class="slider"></span>
 
-        <div class="toggle-2">
-          <label for="Profile-To-Public">Set Profile to Public</label>
-          <input class="settings-toggle" type="checkbox">
-        </div>
+          <span class="labels" data-on="ON" data-off="OFF"></span>
+        </label>
+
+        
+        <label class="toggle" for="Profile-To-Public">Set Profile to Public
+          <input type="checkbox">
+          <span class="slider"></span>
+
+          <span class="labels" data-on="ON" data-off="OFF"></span>
+        </label>
         
       </div>
 
@@ -311,6 +315,8 @@
     </section>
 
   </div>
+
+
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>

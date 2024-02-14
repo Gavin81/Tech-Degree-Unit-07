@@ -653,39 +653,78 @@
 
   /* THE SETTINGS TOGGLE AREA */
   .settings-toggle-area {
-    border: ;
+    border: 1px solid red;
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 100px;
   }
-  .toggle-1 {
-    border: ;
+  .toggle {
+    border: 1px solid red;
+    --width: 80px;
+    --height: calc(var(--width) / 3);
+
+    position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0 0 6px 0;
-    padding: 0;
-    width: ;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
   }
-  /* .labels-on-off {
+  .toggle input {
+    display: none;
+  }
+  .toggle .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color: #ccc;
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle .slider::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--height));
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle input:checked + .slider {
+    background-color: #2196f3;
+  }
+  .toggle input:checked + .slider::before {
+    transform: translateX(calc(var(--width) - var(--height)));
+  }
+
+
+  .toggle .labels {
     position: absolute;
     top: 8px;
     left: 0;
     width: 100%;
     height: 100%;
     font-size: 12px;
-    transition: all .4s ease-in-out;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
   }
-  .labels-on-off::after {
+  .toggle .labels::after {
     content: attr(data-off);
     position: absolute;
     right: 5px;
     color: #4d4d4d;
     opacity: 1;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-    transition: all o,4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
-  .labels-on-off::before {
+  .toggle .labels::before {
     content: attr(data-on);
     position: absolute;
     left: 5px;
@@ -694,12 +733,57 @@
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
     transition: all 0.4s ease-in-out;
   }
-  input:checked~.labels-on-off::after {
+  .toggle input:checked~.labels::after {
     opacity: 0;
   }
-  input:checked~.labels-on-off::before {
+  .toggle input:checked~.labels::before {
     opacity: 1;
-  } */
+  }
+
+
+  /* .toggle-1 {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 6px 0;
+    padding: 0;
+    width: ;
+  }
+  .toggle-1 .labels {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle-1 .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    right: 5px;
+    color: #4d4d4d;
+    opacity: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle-1 .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    left: 5px;
+    color: #ffffff;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle-1 input:checked~.labels::after {
+    opacity: 0;
+  }
+  .toggle-1 input:checked~.labels::before {
+    opacity: 1;
+  }
 
 
   .toggle-2 {
@@ -714,9 +798,9 @@
   .settings-toggle {
     border: 2px solid lightgrey;
     -webkit-appearance: none;
-    margin-right: 10px;
+    margin-right: 20px;
     position: relative;
-    width: 86px;
+    width: 85px;
     height: 34px;
     border-radius: 25px;
     background-color: #8282ee;
@@ -725,7 +809,6 @@
     cursor: pointer;
   }
   .settings-toggle-area label {
-    border: ;
     padding: 8px 65px 0 10px;
     margin: 0;
     font-family: 'Martel-Sans', sans-serif;
@@ -733,12 +816,11 @@
     height: auto;
   }
   .settings-toggle::after {
-    border: 2px solid rgb(141, 212, 141);
     content: '';
     position: absolute;
     top: 50%;
-    left: ;
-    right: -10%;
+    left: 15px;
+    right: 10px;
     transform: translate(-50%, -50%);
     border-radius: 50%;
     height: 1.25rem;
@@ -750,9 +832,8 @@
     background-color: rgb(141, 221, 141);
   }
   .settings-toggle:checked::after {
-    left: 19%;
-    right: ;
-  }
+    left: 83%;
+  } */
 
   .settings-area fieldset {
     
@@ -781,7 +862,6 @@
 
   /* SETTINGS BUTTON AREA */
   .settings-button {
-    border: ;
     margin: 0 auto;
     word-spacing: 18px;
     text-align: center;
@@ -797,7 +877,6 @@
     font-family: 'Martel-Sans', sans-serif;
     font-size: 17px;
     color: white;
-    padding: ;
   }
   #cancel {
     border: 1px solid lightgrey;
@@ -815,6 +894,126 @@
   .widget-container-half {
     width: 95vw;
   }
+
+
+  /* ---------------------------------------------- */
+  /* #a-toggle-area {
+    border: 1px solid black;
+    margin: 0 0 20px 0;
+  }
+  .toggle {
+    --width: 80px;
+    --height: calc(var(--width) / 3);
+    position: relative;
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: var(--height);
+    cursor: pointer;
+  }
+  .toggle input {
+    display: none;
+  }
+  .toggle .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: var(--height);
+    background-color: #8282ee;
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle .slider::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(var(--height));
+    height: calc(var(--height));
+    border-radius: calc(var(--height) / 2);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle input:checked + .slider {
+    background-color: #13c222;
+  }
+  .toggle input:checked + .slider::before {
+    transform: translateX(calc(var(--width) - var(--height)));
+  }
+  .toggle .labels {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle .labels::after {
+    content: attr(data-off);
+    position: absolute;
+    right: 5px;
+    color: #4d4d4d;
+    opacity: 1;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle .labels::before {
+    content: attr(data-on);
+    position: absolute;
+    left: 5px;
+    color: #ffffff;
+    opacity: 0;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in-out;
+  }
+  .toggle input:checked~.labels::after {
+    opacity: 0;
+  }
+  .toggle input:checked~.labels::before {
+    opacity: 1;
+  } */
+
+
+  /* ---------------------------------------- */
+  /* .container {
+    border: 1px solid red;
+    margin: 0 0 20px 0;
+  }
+  input {
+    appearance: none;
+    position: relative;
+    width: 50px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #ccc;
+    transition: background .3s;
+    outline: none;
+    cursor: pointer;
+  }
+  input::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 1.25rem;
+    width: 1.25rem;
+    background-color: rgb(255, 255, 255);
+    transition: left .3s;
+  }
+  input:checked {
+    background-color: rgb(141, 221, 141);
+  }
+  input:checked::after {
+    left: 70%;
+  } */
+
 
 }
 
