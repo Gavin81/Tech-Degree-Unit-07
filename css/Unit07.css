@@ -658,8 +658,12 @@
     padding: 0;
     height: 100px;
   }
+
+  .settings-toggle-area p {
+    
+  }
   .toggle {
-    border: 1px solid red;
+    border: 1px solid blue;
     --width: 80px;
     --height: calc(var(--width) / 3);
 
@@ -673,7 +677,7 @@
     cursor: pointer;
   }
   .toggle input {
-    display: none;
+    
   }
   .toggle .slider {
     position: absolute;
