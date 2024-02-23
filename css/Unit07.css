@@ -53,7 +53,6 @@
 
   /* The main navbar */
   .navbar {
-    border: ;
     background-color: #8282ee;
     /* #207e7e */
     grid-area: navigation;
@@ -62,7 +61,6 @@
     padding: 0;
   }
   .navbar ul {
-    border: ;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -75,10 +73,9 @@
     
   }
   .navbar li {
-    border: ;
+    
   }
   .navbar .title-logo {
-    border: ;
     font-family: 'Martel Sans';
     color: whitesmoke;
     font-size: 19px;
@@ -86,7 +83,6 @@
     padding: 10px 40px 5px 10px;
   }
   .title-logo sup {
-    border: ;
     font-size: 9px;
   }
   .navbar .bell-icon {
