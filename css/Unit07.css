@@ -666,40 +666,45 @@
     padding: 0 0 0 8px;
   }
   .toggle {
-    border: 2px solid lightgrey;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid red;
+    background-color: lightgrey;
     margin: 20px;
-    --width: 80px;
-    --height: calc(var(--width) / 3);
-
+    width: 80px;
+    height: 28px;
     position: relative;
     display: inline-block;
-    width: var(--width);
-    height: var(--height);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
-    border-radius: var(--height);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 13px;
     cursor: pointer;
   }
   .toggle input {
     display: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
   .toggle .slider {
+    border: 1px solid blue;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--height);
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 20px;
+    border-radius: 10px;
     background-color: #ccc;
     transition: all 0.4s ease-in-out;
   }
   .toggle .slider::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: calc(var(--height));
-    height: calc(var(--height));
-    border-radius: calc(var(--height) / 2);
+    top: ;
+    left: ;
+    width: 10px;
+    height: 10px;
+    border-radius: ;
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
     transition: all 0.4s ease-in-out;
@@ -708,7 +713,7 @@
     background-color: #8282ee;
   }
   .toggle input:checked+.slider::before {
-    transform: translateX(calc(var(--width) - var(--height)));
+    transform: translateX;
   }
 
 
