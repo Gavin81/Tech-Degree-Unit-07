@@ -360,12 +360,14 @@
     height: 100px;
   }
   .social-container-facebook .social-image {
-    border: ;
     float: left;
     margin: 0;
     width: 90px;
     height: 100%;
     padding: 15px;
+  }
+  .facebook-icon {
+
   }
   .social-container-facebook .social-text {
     border: ;
@@ -648,7 +650,7 @@
 
   /* THE SETTINGS TOGGLE AREA */
   .settings-toggle-area {
-    border: 1px solid red;
+    border: ;
     margin: 0;
     padding: 0;
     height: ;
@@ -659,7 +661,7 @@
     justify-content: space-between;
   }
   .toggle-container p {
-    border: 1px solid green;
+    border: ;
     font-size: 18px;
     font-family: 'Martel Sans', sans-serif;
     margin-left: 0;
