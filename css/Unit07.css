@@ -595,7 +595,6 @@
     padding: 13px 0 15px 0;
   }
   .message-user-area h3 {
-    border: ;
     margin: 0;
     padding: 0 0 15px 12px;
     font-family: 'Martel Sans', sans-serif;
@@ -603,7 +602,6 @@
     font-weight: 600;
   }
   .message-user-area .widget-container {
-    border: ;
     margin: 0 auto;
     display: block;
     width: 95%;
@@ -628,7 +626,6 @@
     border-radius: 5px;
   }
   .message-user-area .widget-container #messageField {
-    border: ;
     font-family: 'Martel-Sans', sans-serif;
     font-size: 15px;
     padding: 10px 0 0 10px;
@@ -644,14 +641,12 @@
     height: 50px;
     font-family: 'Martel-Sans', sans-serif;
     font-size: 18px;
-    font-weight: ;
     color: white;
   }
 
 
   /* SETTINGS AREA */
   .settings-area {
-    border: ;
     margin: 0 auto;
     display: block;
     width: 100%;
@@ -668,7 +663,6 @@
 
   /* THE SETTINGS TOGGLE AREA */
   .settings-toggle-area {
-    border: ;
     margin: 0;
     padding: 0;
     height: ;
@@ -679,7 +673,6 @@
     justify-content: space-between;
   }
   .toggle-container p {
-    border: ;
     font-size: 18px;
     font-family: 'Martel Sans', sans-serif;
     margin-left: 0;
