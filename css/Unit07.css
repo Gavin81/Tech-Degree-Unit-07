@@ -767,101 +767,6 @@
   }
  
 
-
-  /* .toggle-1 {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 0 6px 0;
-    padding: 0;
-    width: ;
-  }
-  .toggle-1 .labels {
-    position: absolute;
-    top: 8px;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    font-size: 12px;
-    font-family: sans-serif;
-    transition: all 0.4s ease-in-out;
-  }
-  .toggle-1 .labels::after {
-    content: attr(data-off);
-    position: absolute;
-    right: 5px;
-    color: #4d4d4d;
-    opacity: 1;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
-    transition: all 0.4s ease-in-out;
-  }
-  .toggle-1 .labels::before {
-    content: attr(data-on);
-    position: absolute;
-    left: 5px;
-    color: #ffffff;
-    opacity: 0;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4);
-    transition: all 0.4s ease-in-out;
-  }
-  .toggle-1 input:checked~.labels::after {
-    opacity: 0;
-  }
-  .toggle-1 input:checked~.labels::before {
-    opacity: 1;
-  }
-
-
-  .toggle-2 {
-    border: ;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 3px 0 0 0;
-    padding: 0;
-    width: ;
-  }
-  .settings-toggle {
-    border: 2px solid lightgrey;
-    -webkit-appearance: none;
-    margin-right: 20px;
-    position: relative;
-    width: 85px;
-    height: 34px;
-    border-radius: 25px;
-    background-color: #8282ee;
-    transition: background .3s;
-    outline: none;
-    cursor: pointer;
-  }
-  .settings-toggle-area label {
-    padding: 8px 65px 0 10px;
-    margin: 0;
-    font-family: 'Martel-Sans', sans-serif;
-    font-size: 15px;
-    height: auto;
-  }
-  .settings-toggle::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 15px;
-    right: 10px;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    height: 1.25rem;
-    width: 1.25rem;
-    background-color: white;
-    transition: left .3s;
-  }
-  .settings-toggle:checked {
-    background-color: rgb(141, 221, 141);
-  }
-  .settings-toggle:checked::after {
-    left: 83%;
-  } */
-
   .settings-area fieldset {
     
   }
@@ -898,7 +803,7 @@
     border: 1px solid lightgrey;
     border-radius: 7px;
     background-color: #8282ee;
-    width: 186px;
+    width: 195px;
     height: 55px;
     margin: 0;
     font-family: 'Martel-Sans', sans-serif;
@@ -910,7 +815,7 @@
     border-radius: 7px;
     background-color: grey;
     color: white;
-    width: 186px;
+    width: 195px;
     height: 55px;
     margin: 0;
     font-family: 'Martel-Sans', sans-serif;
