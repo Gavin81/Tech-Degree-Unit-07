@@ -41,7 +41,7 @@
     background-color: #8282ee;
     /* #207e7e */
     grid-area: navigation;
-    height: auto;
+    height: 60px;
     margin: 0;
     padding: 0;
   }
@@ -54,9 +54,6 @@
     padding: 0;
     overflow: hidden;
   }
-  #item-1 {
-    
-  }
   .navbar li {
     
   }
@@ -65,14 +62,14 @@
     color: whitesmoke;
     font-size: 19px;
     margin: 0;
-    padding: 10px 40px 5px 10px;
+    padding: 10px 40px 0 10px;
   }
   .title-logo sup {
     font-size: 9px;
   }
   .navbar .bell-icon {
-    margin: 0 -50px 0 0;
-    padding: 20px 10px 0 10px;
+    margin: 0px -50px 0 0;
+    padding: 15px 10px 0 10px;
   }
   .bell-icon img {
 
@@ -99,10 +96,10 @@
     color: whitesmoke;
     font-family: 'Martel Sans';
     font-size: 14px;
-    margin: 10px 0 10px 0;
-    padding: 0 10px 0 10px;
+    margin: 10px 0 0px 0;
+    padding: 0px 10px 0 10px;
     width: auto;
-    height: auto;
+    height: 40px;
   }
   /* ................................. */
 
@@ -778,10 +775,13 @@
   }
 
   .navbar {
-    height: 80px;
+    height: 60px;
   }
   .navbar ul {
     
+  }
+  .navbar li {
+    height: 58px;
   }
   .navbar #item-1 {
     margin-right: auto;
@@ -790,21 +790,32 @@
     margin: 0;
   }
   .navbar #item-3 {
+    border: ;
     padding-left: 0;
   }
 
 
   .sidebar-nav-icons {
-    border: ;
+    border: 1px solid yellow;
     display: block;
   }
   .sidebar-nav-icons li {
-    border: 1px solid red;
+    border: 1px solid green;
     height: 50px;
     width: auto;
     text-align: center;
     margin: auto;
     padding-top: 15px;
+  }
+
+  .Dashboard-area .headline {
+    border: ;
+    margin: 0;
+    padding: 10px 10px 10px 6px;
+  }
+  .Dashboard-area .tab {
+    border: 1px solid red;
+    width: ;
   }
 
 
