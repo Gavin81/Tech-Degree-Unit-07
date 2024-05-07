@@ -33,23 +33,8 @@
   .header {
     grid-area: header;
   }
-  h1 {
-
-  }
-  h2 {
-
-  }
-  h3 {
-    
-  }
-  p {
   
-  }
-  a {
-
-  }
-
-
+  
 
   /* The main navbar */
   .navbar {
@@ -86,7 +71,6 @@
     font-size: 9px;
   }
   .navbar .bell-icon {
-    border: ;
     margin: 0 -50px 0 0;
     padding: 20px 10px 0 10px;
   }
@@ -94,7 +78,6 @@
 
   }
   #notifications {
-    border: ;
     position: relative;
     right: -15px;
     width: 0;
@@ -103,14 +86,12 @@
     background-color: greenyellow;
   }
   .navbar .student img {
-    border: ;
     border-radius: 20px 20px;
     height: 40px;
     width: 40px;
     margin: 8px 8px;
   }
   .navbar .student {
-    border: ;
     border-left: 1px solid hsl(0, 4%, 64%);
     border-width: 1px;
     display: flex;
@@ -129,7 +110,6 @@
 
   /* SIDE NAVBAR */
   .sidebar-nav-icons {
-    border: ;
     background-color: #414177;
     /* hsl(180, 58%, 51%) */
     display: flex;
@@ -137,19 +117,17 @@
     width: 100%;
   }
   .sidebar-nav-icons li {
-    border: ;
     list-style: none;
     margin: 5px auto;
     padding: 5px 0 0 0;
   }
   .sidebar-nav-icons img {
-    color: ;
+  
   }
   .sidebar-nav-icons .home {
     
   }
   .sidebar-nav-icons .home img {
-    color: ;
     height: 30px;
     width: 30px;
   }
@@ -174,7 +152,6 @@
 
 
   .flex-container {
-    border: ;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -185,7 +162,6 @@
     margin: 0;
   }
   .Dashboard-area h2 {
-    border: ;
     width: 34%;
     margin: 0;
     padding: 10px 10px;
@@ -205,7 +181,6 @@
 
 
   .alert {
-    border: ;
     border-radius: 5px;
     background-color: #8282ee;
     /* hsl(180, 58%, 51%) */
@@ -228,13 +203,11 @@
   }
   .alert-banner-close {
     margin: 0;
-    align-items: ;
   }
 
 
   /* TRAFFIC AREA */
   .traffic-area {
-    border: ;
     border-bottom: 1px solid lightgrey;
     width: 100%;
     margin: 0;
@@ -803,6 +776,38 @@
   body {
     border-left: 1px solid red;
   }
+
+  .navbar {
+    height: 80px;
+  }
+  .navbar ul {
+    
+  }
+  .navbar #item-1 {
+    margin-right: auto;
+  }
+  .navbar #item-2 {
+    margin: 0;
+  }
+  .navbar #item-3 {
+    padding-left: 0;
+  }
+
+
+  .sidebar-nav-icons {
+    border: ;
+    display: block;
+  }
+  .sidebar-nav-icons li {
+    border: 1px solid red;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: 15px;
+  }
+
+
   .main {
     display: grid;
     grid-template-columns: 50%;
