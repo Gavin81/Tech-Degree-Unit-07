@@ -802,21 +802,16 @@
 
 
   .Dashboard-area {
-    border: 1px solid red;
+    border: ;
+    grid-column: 1 / span 2;
     margin: 0;
-    height: ;
-    width: ;
   }
   .Dashboard-area .headline {
-    border: 1px solid blue;
-    margin: ;
-    height: ;
-    padding: ;
+    border: ;
+    width: 20%;
   }
   .Dashboard-area .tab {
-    border: 1px solid green;
-    width: 100%;
-    height: ;
+    border: ;
   }
 
 
