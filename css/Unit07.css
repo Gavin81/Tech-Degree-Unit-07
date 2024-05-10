@@ -154,31 +154,36 @@
     justify-content: center;
     align-items: center;
   }
+
+
   .Dashboard-area {
     /* border: 2px solid hsl(180, 58%, 51%); */
     margin: 0;
+    height: auto;
   }
   .Dashboard-area h2 {
-    width: 34%;
     margin: 0;
-    padding: 10px 10px;
+    width: 33%;
+    padding: 10px 5px 10px 13px;
     font-family: 'Martel Sans';
     font-weight: 600;
     font-size: 20px;
   }
-  .Dashboard-area .tab {
+  .tab {
     border: 2px solid lightgrey;
     background-color: #ededed;
     flex: 1 0 40%;
+    height: 0;
     margin: 0;
     padding: 30px;
   }
   
 
-
-
+  /* THE ALERTS AREA */
   .alert {
     border-radius: 5px;
+    display: block;
+    margin: 0 auto;
     background-color: #8282ee;
     /* hsl(180, 58%, 51%) */
     font-family: 'Martel Sans', sans-serif;
@@ -186,8 +191,8 @@
     font-weight: 200;
     color: white;
     width: 95%;
-    height: 100%;
-    margin: 15px 0 15px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 7px 10px;
   }
   .alert-banner {
@@ -208,7 +213,7 @@
     border-bottom: 1px solid lightgrey;
     width: 100%;
     margin: 0;
-    padding: 0 0 15px 0;
+    padding: 0 0 15px 5px;
   }
   .traffic-header {
     margin: 0;
@@ -240,7 +245,6 @@
     font-weight: 200;
     display: flex;
     margin: 0 auto;
-    align-items: ;
     padding: 5px;
   }
   .widget-container-full {
@@ -255,7 +259,7 @@
   .Daily {
     border-bottom: 1px solid lightgrey;
     margin: 0;
-    padding: 10px 0 15px 0;
+    padding: 0 0 15px 0;
     width: 100%;
   }
   .Daily h3 {
@@ -265,6 +269,12 @@
     font-size: 17px;
     font-weight: 600;
     padding: 15px 0 15px 0;
+  }
+  .Daily .widget-container-half {
+    
+  }
+  .Daily #daily-chart {
+   padding: 0 0 0 5px; 
   }
 
 
@@ -796,11 +806,9 @@
 
 
   .sidebar-nav-icons {
-    border: 1px solid yellow;
     display: block;
   }
   .sidebar-nav-icons li {
-    border: 1px solid green;
     height: 50px;
     width: auto;
     text-align: center;
@@ -808,14 +816,28 @@
     padding-top: 15px;
   }
 
-  .Dashboard-area .headline {
-    border: ;
+
+  .Dashboard-area {
+    border: 1px solid red;
     margin: 0;
-    padding: 10px 10px 10px 6px;
+    height: ;
+    width: ;
+  }
+  .Dashboard-area .headline {
+    border: 1px solid blue;
+    margin: ;
+    height: ;
+    padding: ;
   }
   .Dashboard-area .tab {
+    border: 1px solid green;
+    width: 100%;
+    height: ;
+  }
+
+
+  .alert {
     border: 1px solid red;
-    width: ;
   }
 
 
