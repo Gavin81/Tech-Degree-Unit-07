@@ -5,19 +5,9 @@
 }
 
 
-#navbar {
-  
-}
-#navbar ul {
-
-}
-#navbar li {
-
-}
-
 
 /* Mobile css */
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) { */
   
   .grid-container {
     margin: 0;
@@ -54,9 +44,6 @@
     padding: 0;
     overflow: hidden;
   }
-  .navbar li {
-    
-  }
   .navbar .title-logo {
     font-family: 'Martel Sans';
     color: whitesmoke;
@@ -70,9 +57,6 @@
   .navbar .bell-icon {
     margin: 0px -50px 0 0;
     padding: 15px 10px 0 10px;
-  }
-  .bell-icon img {
-
   }
   #notifications {
     position: relative;
@@ -774,7 +758,7 @@
 
 
 
-}
+/* } */
 
 
 /* Tablet css */
