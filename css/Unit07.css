@@ -831,7 +831,6 @@
     grid-column: 1 / span 2;
   }
   .traffic-header {
-    border:;
     display: flex;
     justify-content: space-between;
     padding: 0 20px 0 18px;
@@ -839,6 +838,11 @@
   .traffic-header ul li {
     padding: 10px;
   }
+  .widget-container-full {
+    margin-left: 16px;
+  }
+   
+
   .Daily,
   .new-members-area,
   .message-user-area {
