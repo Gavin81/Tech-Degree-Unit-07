@@ -28,6 +28,7 @@
 
   /* The main navbar */
   .navbar {
+    border-bottom: 1px solid red;
     background-color: #8282ee;
     /* #207e7e */
     grid-area: navigation;
@@ -764,12 +765,9 @@
 /* Tablet css */
 @media screen and (min-width: 768px) {
 
-  body {
-    border-left: 1px solid red;
-  }
-
   .navbar {
     height: 60px;
+    border: none;
   }
   .navbar ul {
     
@@ -784,12 +782,12 @@
     margin: 0;
   }
   .navbar #item-3 {
-    border: ;
     padding-left: 0;
   }
 
 
   .sidebar-nav-icons {
+    border-right: 1px solid red;
     display: block;
   }
   .sidebar-nav-icons li {
@@ -802,21 +800,20 @@
 
 
   .Dashboard-area {
-    border: ;
     grid-column: 1 / span 2;
     margin: 0;
   }
   .Dashboard-area .headline {
-    border: ;
     width: 20%;
   }
   .Dashboard-area .tab {
-    border: ;
+    
   }
 
 
   .alert {
-    border: 1px solid red;
+    display: grid;
+    grid-column: 1 / span 2;
   }
 
 
@@ -833,6 +830,14 @@
   .traffic-area,
   .social-container-area {
     grid-column: 1 / span 2;
+  }
+  .traffic-header h3 {
+    border: 1px solid red;
+  }
+  .traffic-header ul {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: flex-end;
   }
   .Daily,
   .new-members-area,
