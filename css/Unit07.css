@@ -339,7 +339,7 @@
   }
   .social-container-facebook .social-text {
     display: inline-block;
-    width: 75%;
+    /* width: 75%; */
     height: 100%;
     margin: 0;
     padding: 0 0 0 10px;
@@ -379,7 +379,7 @@
   }
   .social-container-instagram .social-text {
     display: inline-block;
-    width: 70%;
+    /* width: 70%; */
     height: 100%;
     padding: 5px 0 0 10px;
   }
@@ -416,7 +416,7 @@
   }
   .social-container-twitter .social-text {
     display: inline-block;
-    width: 70%;
+    /* width: 70%; */
     height: 100%;
     padding: 5px 0 0 10px;
   }
@@ -762,7 +762,6 @@
 /* Tablet css */
 @media screen and (min-width: 768px) {
 
-
   .navbar {
     height: 60px;
     border: none;
@@ -873,14 +872,36 @@
 
 
   .social-container-area {
-    border: 1px solid red;
     padding: 0;
+    margin: 0 0 9px 0;
   }
   .social-container-area .social-heading {
-    border: 2px solid green;
+    padding: 8px 0 0 1px;
   }
-  .social-container-area section {
-    border: 1px solid blue;
+  .social-cards-container {
+    display: flex;
+    margin: 0 17px 0 17px;
+  }
+  .social-cards-container section {
+    margin: 5px;
+  }
+
+
+  .new-members-area {
+    border: 1px solid red;
+  }
+  .members-container {
+    border: 1px solid black;
+    width: ;
+  }
+  .members-cards {
+    
+  }
+
+
+
+  .recent-activity-area {
+    border: 2px solid blue;
   }
 
 }
