@@ -103,12 +103,6 @@
     margin: 5px auto;
     padding: 5px 0 0 0;
   }
-  .sidebar-nav-icons img {
-  
-  }
-  .sidebar-nav-icons .home {
-    
-  }
   .sidebar-nav-icons .home img {
     height: 30px;
     width: 30px;
@@ -890,17 +884,28 @@
   .new-members-area {
     border: 1px solid red;
   }
-  .members-container {
-    border: 1px solid black;
+  .new-members-area .heading {
+    margin: 0;
+    padding: 0 0 0 20px;
   }
   .members-cards {
-    
+    display: ;
+    width: ;
+  }
+  .members-container {
+    border: 1px solid black;
   }
 
 
 
   .recent-activity-area {
     border: 2px solid blue;
+  }
+  .recent-activity-area h3 {
+    border: 2px solid green;
+  }
+  .members-recent-activity-cards {
+    display: ;
   }
 
 }
