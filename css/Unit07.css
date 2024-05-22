@@ -461,9 +461,6 @@
     height: 85px;
     width: 85px;
   }
-  .new-members-area .members-container .members-text {
-    
-  }
   .new-members-area .members-container .members-text h3 {
     margin: 0;
     padding: 0;
@@ -473,6 +470,9 @@
   .new-members-area .members-container .members-text a {
     margin: 0;
     display: block;
+    text-align: center;
+  }
+  .members-container p {
     text-align: center;
   }
   .new-members-area .members-container .members-text p {
@@ -883,7 +883,6 @@
 
 
   .new-members-area {
-    border: ;
     grid-column: 1 / span 2;
   }
   .new-members-area .heading {
@@ -895,17 +894,29 @@
     grid-column: 1 / span 2;
   }
   .members-cards {
-    
+    border: 1px solid red;
   }
   .members-container {
-    
+    border: 2px solid blue;
+    display: flex;
+    flex-grow: ;
   }
   .members-container img {
     border: 1px solid red;
-    display: ;
   }
   .members-text {
-    display: flex;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+  }
+  .members-text h3 {
+    border: 2px solid green;
+  }
+  .members-text a {
+    border: 2px solid orange;
+  }
+  .members-container P {
+    border: 2px solid purple;
   }
 
 
