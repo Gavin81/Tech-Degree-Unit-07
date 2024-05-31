@@ -918,6 +918,18 @@
   .members-container P {
     border: 2px solid purple;
   }
+  #item-one {
+    flex-grow: ;
+  }
+  #item-two {
+    flex-grow: ;
+  }
+  #item-three {
+    flex-grow: ;
+  }
+  #item-four {
+
+  }
 
 
 
