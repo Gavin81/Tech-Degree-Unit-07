@@ -899,36 +899,36 @@
   .members-container {
     border: 2px solid blue;
     display: flex;
-    flex-grow: ;
   }
   .members-container img {
     border: 1px solid red;
   }
   .members-text {
     border: 2px solid black;
+    flex-grow: 1;
     margin: 0;
     padding: 0;
   }
   .members-text h3 {
-    border: 2px solid green;
+    border: ;
   }
   .members-text a {
-    border: 2px solid orange;
+    border: ;
   }
   .members-container P {
-    border: 2px solid purple;
+    border: ;
   }
   #item-one {
-    flex-grow: ;
+    
   }
   #item-two {
-    flex-grow: ;
+    
   }
   #item-three {
-    flex-grow: ;
+    
   }
   #item-four {
-
+    
   }
 
 
