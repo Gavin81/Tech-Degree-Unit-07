@@ -882,59 +882,47 @@
 
 
 
-  .new-members-area {
+  .members-area {
     grid-column: 1 / span 2;
   }
-  .new-members-area .heading {
+  .members-area .heading {
     border: ;
     margin: 0;
     padding: 15px 0 0 20px;
   }
-  .new-members-area {
+  .members-area {
     grid-column: 1 / span 2;
   }
   .members-cards {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .members-container {
     border: 2px solid blue;
     display: flex;
   }
   .members-container img {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .members-text {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-grow: 1;
     margin: 0;
     padding: 0;
   }
   .members-text h3 {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
   }
   .members-text a {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0;
     padding: 0;
   }
   .members-container P {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
-  #item-one {
-    
-  }
-  #item-two {
-    
-  }
-  #item-three {
-    
-  }
-  #item-four {
-    
-  }
-
+ 
 
 
   .recent-activity-area {
