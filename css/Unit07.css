@@ -451,7 +451,7 @@
   #border-top {
     border-top: 2px solid lightgrey;
     margin: 0 auto;
-    display: block;
+    /* display: block; */
     width: 95%;
   }
   .new-members-area .members-container img {
@@ -910,13 +910,17 @@
     padding: 0;
   }
   .members-text h3 {
-    border: ;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
   }
   .members-text a {
-    border: ;
+    border: 2px solid blue;
+    margin: 0;
+    padding: 0;
   }
   .members-container P {
-    border: ;
+    border: 1px solid red;
   }
   #item-one {
     
