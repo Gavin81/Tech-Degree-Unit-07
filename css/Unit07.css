@@ -753,7 +753,7 @@
 /* } */
 
 
-/* Tablet css */
+/* Tablet css **************************************************************/
 @media screen and (min-width: 768px) {
 
   .navbar {
@@ -900,8 +900,8 @@
     border: 2px solid blue;
     display: flex;
   }
-  .members-container img {
-    /* border: 1px solid red; */
+  .new-members-container img {
+    border: 1px solid red;
   }
   .members-text {
     /* border: 2px solid black; */
