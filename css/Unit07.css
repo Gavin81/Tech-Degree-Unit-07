@@ -446,6 +446,7 @@
     font-weight: 600;
   }
   .new-members-area .members-container {
+    border: ;
     padding: 10px 0 14px 0;
   }
   #border-top {
@@ -882,7 +883,7 @@
 
 
 
-  .members-area {
+  .new-members-area {
     grid-column: 1 / span 2;
   }
   .members-area .heading {
@@ -896,11 +897,11 @@
   .members-cards {
     /* border: 1px solid red; */
   }
-  .members-container {
-    border: 2px solid blue;
+  .new-members-area .members-container {
+    border: ;
     display: flex;
   }
-  .new-members-container img {
+  .members-container img {
     border: 1px solid red;
   }
   .members-text {
