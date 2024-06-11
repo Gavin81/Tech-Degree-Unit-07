@@ -456,10 +456,10 @@
     padding: 10px 0 14px 0;
   }
   .new-members-area .border-top {
-    border-top: none;
+    /* border-top: none; */
   }
   .new-members-area .border-bottom {
-    border-top: none;
+    /* border-top: none; */
   }
   #border-top {
     /* border-top: 2px solid lightgrey; */
@@ -473,23 +473,45 @@
     height: 85px;
     width: 85px;
   }
-  .new-members-area .members-container .members-text h3 {
+  .new-members-area .members-text {
+    border: ;
+    padding: 0;
+    margin: 7px 0 0 0;
+  }
+  .new-members-area .members-text h3 {
+    border: ;
     margin: 0;
     padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.1;
+  }
+  .new-members-area .members-text a {
+    border: ;
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  /* THIS IS THE DATE */
+  .new-members-area .members-container p {
+    border: ;
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", sans-serif;
     font-size: 15px;
     text-align: center;
   }
-  .new-members-area .members-container .members-text a {
-    margin: 0;
-    display: block;
-    text-align: center;
-  }
-  .members-container p {
-    text-align: center;
-  }
   .new-members-area .members-container .members-text p {
-    margin: 0;
-    text-align: center;
+    /* margin: 0;
+    text-align: center; */
   }
 
 
@@ -912,26 +934,34 @@
     border: ;
     display: flex;
   }
+  .new-members-area .members-container:first-child {
+    border-top: none;
+  }
+  .new-members-area .members-container:last-child {
+    border-bottom: none;
+  }
   .members-container img {
     border: 1px solid red;
   }
-  .members-text {
-    /* border: 2px solid black; */
+  .new-members-area .members-text {
+    border: 1px solid black;
     flex-grow: 1;
     margin: 0;
     padding: 0;
   }
-  .members-text h3 {
-    /* border: 1px solid red; */
+  .new-members-area .members-text h3 {
+    border: ;
     margin: 0;
     padding: 0;
+    text-align: left;
   }
-  .members-text a {
-    /* border: 2px solid blue; */
+  .new-members-area .members-text a {
+    border: 1px solid blue;
     margin: 0;
     padding: 0;
+    text-align: left;
   }
-  .members-container P {
+  .new-members-area .members-container P {
     /* border: 1px solid red; */
   }
  
