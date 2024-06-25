@@ -523,6 +523,7 @@
     border-top: 2px solid lightgrey;
     margin: 0 auto;
     display: block;
+    width: 100%;
   }
   .recent-activity-area h3 {
     margin: 0;
@@ -557,8 +558,8 @@
     
   }
   .recent-activity-area .members-text p {
-    font-family: 'Martel-Sans', sans-serif;
-    font-size: 15px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
     text-align: center;
   }
 
@@ -929,6 +930,7 @@
   }
 
 
+
   /* NEW MEMBERS AREA */
   .new-members-area {
     grid-column: 1 / span 2;
@@ -944,7 +946,6 @@
     
   }
   .new-members-area .members-container {
-    border: ;
     display: flex;
   }
   .new-members-area .members-container:first-child {
@@ -982,14 +983,35 @@
 
   /* RECENT ACTIVITY AREA */
   .recent-activity-area {
-    border: 1px solid red;
     grid-column: 1 / span 2;
   }
   .recent-activity-area h3 {
-    border: 1px solid black;
+    border: ;
+    padding: 10px 0 0 20px;
   }
   .members-recent-activity-cards {
     
+  }
+  .recent-activity-area .members-container {
+    display: flex;
+  }
+  .recent-activity-area .members-container img {
+    
+  }
+  .recent-activity-area .members-text {
+    flex-grow: 1;
+    padding: 21px 0 0 13px;
+  }
+  .recent-activity-area .members-text p {
+    line-height: 1;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  #members-arrow {
+    border: ;
+    padding: 15px 0 0 0;
+    height: 40px;
   }
 
 
