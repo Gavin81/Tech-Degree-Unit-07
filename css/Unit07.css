@@ -455,6 +455,12 @@
     width: 95%;
     padding: 10px 0 14px 0;
   }
+  .new-members-area .members-container:first-child {
+    border-top: none;
+  }
+  .new-members-area .members-container:last-child {
+    border-bottom: none;
+  }
   .new-members-area .border-top {
     /* border-top: none; */
   }
@@ -474,12 +480,10 @@
     width: 85px;
   }
   .new-members-area .members-text {
-    border: ;
     padding: 0;
     margin: 7px 0 0 0;
   }
   .new-members-area .members-text h3 {
-    border: ;
     margin: 0;
     padding: 0;
     font-family: 'Martel Sans', sans-serif;
@@ -489,7 +493,6 @@
     line-height: 1.1;
   }
   .new-members-area .members-text a {
-    border: ;
     margin: 0;
     padding: 0;
     display: block;
@@ -502,7 +505,6 @@
 
   /* THIS IS THE DATE */
   .new-members-area .members-container p {
-    border: ;
     margin: 0;
     padding: 0;
     font-family: "Martel Sans", sans-serif;
@@ -521,7 +523,6 @@
     border-top: 2px solid lightgrey;
     margin: 0 auto;
     display: block;
-    width: 100%;
   }
   .recent-activity-area h3 {
     margin: 0;
@@ -531,7 +532,19 @@
     font-weight: 600;
   }
   .recent-activity-area .members-container {
+    border: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    display: block;
+    margin: auto;
+    width: 95%;
     padding: 24px 0 24px 0;
+  }
+  .recent-activity-area .members-container:first-child {
+    border-top: none;
+  }
+  .recent-activity-area .members-container:last-child {
+    border-bottom: none;
   }
   .recent-activity-area .members-container img {
     border-radius: 70px;
@@ -549,7 +562,8 @@
     text-align: center;
   }
 
-
+ 
+  
   /* MESSAGE USER AREA */
   .message-user-area {
     width: 100%;
@@ -915,12 +929,11 @@
   }
 
 
-
+  /* NEW MEMBERS AREA */
   .new-members-area {
     grid-column: 1 / span 2;
   }
   .members-area .heading {
-    border: ;
     margin: 0;
     padding: 15px 0 0 20px;
   }
@@ -928,7 +941,7 @@
     grid-column: 1 / span 2;
   }
   .members-cards {
-    /* border: 1px solid red; */
+    
   }
   .new-members-area .members-container {
     border: ;
@@ -941,38 +954,39 @@
     border-bottom: none;
   }
   .members-container img {
-    border: 1px solid red;
+    
   }
   .new-members-area .members-text {
-    border: 1px solid black;
     flex-grow: 1;
-    margin: 0;
-    padding: 0;
+    margin: 19px 0 0 0;
+    padding: 0 0 0 15px;
+    height: 50px;
   }
   .new-members-area .members-text h3 {
-    border: ;
     margin: 0;
     padding: 0;
     text-align: left;
   }
   .new-members-area .members-text a {
-    border: 1px solid blue;
     margin: 0;
     padding: 0;
     text-align: left;
   }
   .new-members-area .members-container P {
-    /* border: 1px solid red; */
+    margin: 19px 0 0 0;
+    padding: 16px 0 0 0;
+    height: 44px;
   }
  
 
 
+  /* RECENT ACTIVITY AREA */
   .recent-activity-area {
-    border: ;
+    border: 1px solid red;
     grid-column: 1 / span 2;
   }
   .recent-activity-area h3 {
-    border: ;
+    border: 1px solid black;
   }
   .members-recent-activity-cards {
     
