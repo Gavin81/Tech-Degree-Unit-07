@@ -1064,8 +1064,9 @@
 @media screen and (min-width: 1024px) {
 
   html {
-    border-left: 2px solid green;
+    border-left: 1px solid green;
   }
+
   
   .main {
     display: grid;
@@ -1074,7 +1075,17 @@
 
 
   .sidebar-nav-icons {
-    border-right: 2px solid green;
+    border: none;
+  }
+
+
+  .Dashboard-area .headline {
+    margin: 0;
+    padding-left: 20px;
+    width: 8%;
+  }
+  .alert {
+    width: 98%;
   }
 
 }
