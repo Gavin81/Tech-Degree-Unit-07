@@ -1108,10 +1108,14 @@
  }
  .widget-container-full {
   border: 2px solid orange;
-  width: 98%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
  }
  #traffic-chart {
-  border: 2px solid brown;
+  border: 1px solid black;
+  padding: 0 0 0 19px;
+  margin: 0;
  }
 
 }
