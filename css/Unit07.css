@@ -1090,32 +1090,28 @@
 
 
  .traffic-area {
-    border: 1px solid red;
     padding: 0;
  }
  .traffic-header {
-  border: 1px solid black;
   padding: 0 10px 0 0;
   margin: 0;
  }
  .traffic-area h3 {
-    border: 1px solid blue;
     margin: 0;
     padding: 0 0 0 15px;
  }
  .traffic-nav {
-  border: 2px solid green;
+  
  }
  .widget-container-full {
-  border: 2px solid orange;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 99%;
  }
  #traffic-chart {
-  border: 1px solid black;
   padding: 0 0 0 19px;
   margin: 0;
  }
+
 
 }
