@@ -1089,6 +1089,7 @@
 	}
 
 
+	/* TRAFFIC CHART AREA */
  	.traffic-area {
 		padding: 0 0 20px 0;
  	}
@@ -1114,42 +1115,65 @@
  	}
 
 
+	/* DOUGHNUT CHART AREA */
  	.Daily {
-		border: 1px solid black;
-		width: 95%;
+		
  	}
  	.Daily h3 {
-		border: ;
 		width: 100%;
 		padding: 10px 0 20px 15px;
  	}
  	.Daily .widget-container-half {
-		border: 1px solid red;
-		padding: 0;
-		margin: 0;
-		width: 100%;
-		height: 400px;
+		
  	}
  	.Daily #daily-chart {
-		border: 2px solid blue;
-		width: ;
+		
  	}
 
 
+	/* MOBILE USERS CHART AREA */
  	.mobile-users-area {
-		border: 1px solid blue;
-		padding: 0;
+
  	}
 	.mobile-users-area h3 {
-		border: 1px solid red;
 		width: 100%;
 		padding: 10px 0 20px 15px;
 	}
 	.mobile-users-area .widget-container-half {
-		border: 1px solid black;
+		
 	}
 	#mobile-doughnut-chart {
+		
+	}
+
+
+	/* SOCIAL STATS AREA */
+	.social-container-area {
+		border: 1px solid red;
+	}
+	.social-container-area .social-heading {
+		border: 1px solid blue;
+		margin: 0;
+		padding: 10px 0 10px 20px;
+	}
+	.social-cards-container {
 		border: 2px solid green;
+		margin: 0;
+		padding-left: ;
+	}
+	.social-container-area section {
+		width: ;
+		margin: ;
+	}
+	.social-container-facebook {
+		border: 1px solid turquoise;
+		width: ;
+	}
+	.social-container-instagram {
+		width: ;
+	}
+	.social-container-twitter {
+		width: ;
 	}
 
 
