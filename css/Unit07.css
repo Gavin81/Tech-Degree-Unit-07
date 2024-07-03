@@ -1089,55 +1089,68 @@
 	}
 
 
- .traffic-area {
+ 	.traffic-area {
 		padding: 0 0 20px 0;
- }
- .traffic-header {
+ 	}
+ 	.traffic-header {
 		padding: 0 10px 0 0;
 		margin: 0;
- }
- .traffic-area h3 {
+ 	}
+ 	.traffic-area h3 {
 		margin: 0;
 		padding: 0 0 0 15px;
- }
- .traffic-nav {
+ 	}
+ 	.traffic-nav {
 	
- }
- .widget-container-full {
+ 	}
+ 	.widget-container-full {
 		margin: 0;
 		padding: 0;
 		width: 99%;
- }
- #traffic-chart {
+ 	}
+ 	#traffic-chart {
 		padding: 0 0 0 19px;
 		margin: 0;
- }
+ 	}
 
 
- .Daily {
-		border: ;
-		width: ;
- }
- .Daily h3 {
-		border: ;
-		width: 100%;
-		padding: 10px 0 20px 10px;
- }
- .Daily .widget-container-half {
-		border: 1px solid red;
-		margin: 0 0 0 0;
-		padding: 0 7px 0 7px;
-		width: 100%;
- }
- .Daily #daily-chart {
+ 	.Daily {
 		border: 1px solid black;
+		width: 95%;
+ 	}
+ 	.Daily h3 {
+		border: ;
+		width: 100%;
+		padding: 10px 0 20px 15px;
+ 	}
+ 	.Daily .widget-container-half {
+		border: 1px solid red;
+		padding: 0;
 		margin: 0;
- }
+		width: 100%;
+		height: 400px;
+ 	}
+ 	.Daily #daily-chart {
+		border: 2px solid blue;
+		width: ;
+ 	}
 
 
- .mobile-users-area {
+ 	.mobile-users-area {
 		border: 1px solid blue;
- }
+		padding: 0;
+ 	}
+	.mobile-users-area h3 {
+		border: 1px solid red;
+		width: 100%;
+		padding: 10px 0 20px 15px;
+	}
+	.mobile-users-area .widget-container-half {
+		border: 1px solid black;
+	}
+	#mobile-doughnut-chart {
+		border: 2px solid green;
+	}
 
 
 }
