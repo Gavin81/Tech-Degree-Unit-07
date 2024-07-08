@@ -1160,7 +1160,16 @@
 	}
 	
 	
-	
+	.new-members-area {
+		border: 1px solid red;
+		grid-column: 1;
+	}
+
+
+	.recent-activity-area {
+		border: 1px solid black;
+		grid-column: 2;
+	}
 	
 
 
