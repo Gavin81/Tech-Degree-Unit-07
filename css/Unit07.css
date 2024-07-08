@@ -1161,25 +1161,30 @@
 	
 	
 	.new-members-area {
-		border: 1px solid red;
+		border: 1px solid lightgrey;
 		grid-column: 1;
 	}
 	.new-members-area .heading {
 		padding-left: 19px;
 	}
-	.new-members-area .members-cards {
-		
-	}
-	.new-members-area .members-container {
-		
-	}
 
+	
 
 	.recent-activity-area {
-		border: 1px solid black;
 		grid-column: 2;
 	}
-	
+
+
+	.message-user-area {
+		border: 1px solid lightgrey;
+		grid-column: 1;
+	}
+
+
+	.settings-area {
+		border: 1px solid lightgrey;
+		grid-column: 2;
+	}
 
 
 }
