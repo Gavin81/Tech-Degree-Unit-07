@@ -1149,7 +1149,7 @@
 
 	/* SOCIAL STATS AREA */
 	.social-container-area {
-		border: ;
+	
 	}
 	.social-container-area .social-heading {
 		margin: 0;
@@ -1163,6 +1163,15 @@
 	.new-members-area {
 		border: 1px solid red;
 		grid-column: 1;
+	}
+	.new-members-area .heading {
+		padding-left: 19px;
+	}
+	.new-members-area .members-cards {
+		border: 1px solid green;
+	}
+	.new-members-area .members-container {
+		border: 1px solid turquoise;
 	}
 
 
