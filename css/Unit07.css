@@ -1149,32 +1149,19 @@
 
 	/* SOCIAL STATS AREA */
 	.social-container-area {
-		border: 1px solid red;
+		border: ;
 	}
 	.social-container-area .social-heading {
-		border: 1px solid blue;
 		margin: 0;
-		padding: 10px 0 10px 20px;
+		padding: 13px 0 8px 20px;
 	}
 	.social-cards-container {
-		border: 2px solid green;
-		margin: 0;
-		padding-left: ;
+		margin: 0 14px 0 14px;
 	}
-	.social-container-area section {
-		width: ;
-		margin: ;
-	}
-	.social-container-facebook {
-		border: 1px solid turquoise;
-		width: ;
-	}
-	.social-container-instagram {
-		width: ;
-	}
-	.social-container-twitter {
-		width: ;
-	}
+	
+	
+	
+	
 
 
 }
