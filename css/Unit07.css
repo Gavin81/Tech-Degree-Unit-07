@@ -990,7 +990,6 @@
 		grid-column: 1 / span 2;
 	}
 	.recent-activity-area h3 {
-		border: ;
 		padding: 10px 0 0 20px;
 	}
 	.members-recent-activity-cards {
@@ -1046,19 +1045,16 @@
 		
 	}
 	#timezone {
-		border: ;
+		
 	}
 	.settings-button {
-		border: ;
 		margin: 0;
 		padding: 5px 0 18px 0;
 	}
 	.settings-button #save {
-		border: ;
 		width: 46.3%;
 	}
 	.settings-button #cancel {
-		border: ;
 		width: 46.3%;
 	}
 
@@ -1264,17 +1260,51 @@
 	
 	
 	.new-members-area {
-		border: 1px solid lightgrey;
+		border-right: 1px solid lightgrey;
 		grid-column: 1;
 	}
 	.new-members-area .heading {
 		padding-left: 19px;
 	}
+	.new-members-area .members-cards {
+		border: ;
+	}
+	.new-members-area .members-container {
+		border: ;
+		height: 150px;
+	}
+	.new-members-area .members-container img {
+		border: ;
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+	.new-members-area .members-text {
+		border: ;
+		margin: 40px 0 0 0;
+		padding: 0 0 0 13px;
+	}
+	.new-members-area .members-container p {
+		margin: 40px 0 0 0;
+		padding: 8px 0 0 0;
+	}
 
 	
 
 	.recent-activity-area {
+		border: ;
 		grid-column: 2;
+	}
+	.recent-activity-area h3 {
+		border: ;
+		margin: 0;
+		padding: 10px 0 10px 20px;
+	}
+	.recent-activity-area .members-recent-activity-cards {
+		border: ;
+	}
+	.recent-activity-area .members-container {
+		border: ;
+		height: 149px;
 	}
 
 
