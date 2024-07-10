@@ -832,7 +832,7 @@
 
 	/* The Side Nav */
 	.sidebar-nav-icons {
-		border-right: 1px solid turquoise;
+		border-right: 2px solid red;
 		display: block;
 	}
 	.sidebar-nav-icons li {
@@ -1046,17 +1046,17 @@
 		padding-left: 21px;
 	}
 	.settings-area .toggle-container p {
+		font-size: 15px;
 		margin: 0;
-		padding: 19px 0 0 21px;
+		padding: 4px 10px 0 18px;
 	}
 	.settings-area .toggle-container {
-		width: 38%;
+		padding: 0;
+		width: 49%;
 	}
 	.settings-area .toggle-container .toggle {
-		
-	}
-	#timezone {
-		
+		padding: 0;
+		margin-top: 0;
 	}
 	.settings-button {
 		margin: 0;
@@ -1076,17 +1076,11 @@
 
 @media screen and (min-width: 1024px) {
 
-	html {
-		border-left: 1px solid green;
-	}
-
 	
 	.main {
 		display: grid;
 		/* grid-template-columns: 1fr; */
 	}
-
-
 
 
 	.bell-icon:hover {
@@ -1185,7 +1179,7 @@
 
 
 	.sidebar-nav-icons {
-		border: none;
+		border-right: 1px solid yellow;
 	}
 
 
@@ -1328,12 +1322,29 @@
 	.message-user-area {
 		border: 1px solid lightgrey;
 		grid-column: 1;
+		padding: 0;
+	}
+	.message-user-area h3 {
+		padding: 10px 0 10px 23px;
 	}
 
 
 	.settings-area {
 		border: 1px solid lightgrey;
 		grid-column: 2;
+	}
+	.settings-toggle-area {
+		
+	}
+	.settings-area .toggle-container {
+		width: 55%;
+		padding-left: 2px;
+	}
+	.settings-area p {
+		font-size: 15px;
+	}
+	.settings-area .toggle {
+		
 	}
 
 
