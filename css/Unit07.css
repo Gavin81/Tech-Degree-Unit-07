@@ -594,6 +594,9 @@
 		height: 50px;
 		width: 100%;
 	}
+	.message-user-area input:hover {
+		border: 2px solid turquoise;
+	}
 	.message-user-area .widget-container .form-field {
 		font-size: 15px;
 		padding: 0 0 0 10px;
@@ -605,6 +608,9 @@
 		width: 100%;
 		height: 150px;
 		border-radius: 5px;
+	}
+	.message-user-area textarea:hover {
+		border: 2px solid turquoise;
 	}
 	.message-user-area .widget-container #messageField {
 		font-family: 'Martel-Sans', sans-serif;
@@ -623,6 +629,9 @@
 		font-family: 'Martel-Sans', sans-serif;
 		font-size: 18px;
 		color: white;
+	}
+	.message-user-area #send:hover {
+		cursor: pointer;
 	}
 
 
@@ -1018,6 +1027,7 @@
 	}
 
 
+	/* MESSAGE USER AREA */
 	.message-user-area {
 		grid-column: 1 / span 2;
 		padding-bottom: 12px;
@@ -1028,6 +1038,7 @@
 	}
 
 
+	/* SETTINGS AREA */
 	.settings-area {
 		grid-column: 1 / span 2;
 	}
@@ -1267,19 +1278,16 @@
 		padding-left: 19px;
 	}
 	.new-members-area .members-cards {
-		border: ;
+
 	}
 	.new-members-area .members-container {
-		border: ;
 		height: 150px;
 	}
 	.new-members-area .members-container img {
-		border: ;
 		margin: 20px 0 0 0;
 		padding: 0;
 	}
 	.new-members-area .members-text {
-		border: ;
 		margin: 40px 0 0 0;
 		padding: 0 0 0 13px;
 	}
@@ -1291,20 +1299,29 @@
 	
 
 	.recent-activity-area {
-		border: ;
 		grid-column: 2;
 	}
 	.recent-activity-area h3 {
-		border: ;
 		margin: 0;
 		padding: 10px 0 10px 20px;
 	}
 	.recent-activity-area .members-recent-activity-cards {
-		border: ;
+		
 	}
 	.recent-activity-area .members-container {
-		border: ;
 		height: 149px;
+	}
+	.recent-activity-area .members-container img {
+		margin: 5px 0 0 0;
+	}
+	.recent-activity-area .members-text {
+		margin: 25px 0 0 0;
+		padding: 0 0 0 20px;
+		height: 40px;
+	}
+	#members-arrow {
+		margin: 25px 0 0 0;
+		padding: 10px 0 0 0;
 	}
 
 
