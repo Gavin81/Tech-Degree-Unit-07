@@ -142,14 +142,13 @@
 	}
 	.Dashboard-area h2 {
 		margin: 0;
-		width: 33%;
-		padding: 10px 5px 10px 13px;
-		font-family: 'Martel Sans';
+		width: 39%;
+		padding: 10px 5px 10px 8px;
+		font-family: 'Martel Sans', sans-serif;
 		font-weight: 600;
 		font-size: 20px;
 	}
 	.tab {
-		border: 2px solid lightgrey;
 		background-color: #ededed;
 		flex: 1 0 40%;
 		height: 0;
