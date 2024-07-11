@@ -225,13 +225,8 @@
 		margin: 0 auto;
 		padding: 5px;
 	}
-	.widget-container-full {
-		
-	}
-	#traffic-chart {
-		
-	}
 
+	
 
 	/* DAILY TRAFFIC AREA */
 	.Daily {
@@ -248,11 +243,8 @@
 		font-weight: 600;
 		padding: 15px 0 15px 0;
 	}
-	.Daily .widget-container-half {
-		
-	}
 	.Daily #daily-chart {
-	 padding: 0 0 0 5px; 
+	 	padding: 0 0 0 5px; 
 	}
 
 
@@ -460,17 +452,6 @@
 	.new-members-area .members-container:last-child {
 		border-bottom: none;
 	}
-	.new-members-area .border-top {
-		/* border-top: none; */
-	}
-	.new-members-area .border-bottom {
-		/* border-top: none; */
-	}
-	#border-top {
-		/* border-top: 2px solid lightgrey; */
-		/* margin: 0 auto;
-		width: 95%; */
-	}
 	.new-members-area .members-container img {
 		border-radius: 70px;
 		margin: 0 auto;
@@ -509,10 +490,6 @@
 		font-family: "Martel Sans", sans-serif;
 		font-size: 15px;
 		text-align: center;
-	}
-	.new-members-area .members-container .members-text p {
-		/* margin: 0;
-		text-align: center; */
 	}
 
 
@@ -553,9 +530,6 @@
 		height: 85px;
 		width: 85px;
 	}
-	.recent-activity-area .members-text {
-		
-	}
 	.recent-activity-area .members-text p {
 		font-family: 'Martel Sans', sans-serif;
 		font-size: 17px;
@@ -566,7 +540,7 @@
 	}
 
  
-	
+
 	/* MESSAGE USER AREA */
 	.message-user-area {
 		width: 100%;
@@ -703,9 +677,6 @@
 	.toggle input:checked + .slider {
 		left: 67%;
 	}
-	.toggle input:checked + .slider::before {
-		
-	}
 	.toggle .labels {
 		position: absolute;
 		top: 23%;
@@ -742,14 +713,6 @@
 		opacity: 1;
 	}
  
-
-	.settings-area fieldset {
-		
-	}
-	.settings-area legend {
-		
-	}
-
 
 
 	.form-field.timezone {
@@ -848,11 +811,10 @@
 		margin: 0;
 	}
 	.Dashboard-area .headline {
+		padding-left: 15px;
 		width: 20%;
 	}
-	.Dashboard-area .tab {
-		
-	}
+	
 
 
 	.alert {
@@ -954,9 +916,6 @@
 	.members-area {
 		grid-column: 1 / span 2;
 	}
-	.members-cards {
-		
-	}
 	.new-members-area .members-container {
 		display: flex;
 	}
@@ -965,9 +924,6 @@
 	}
 	.new-members-area .members-container:last-child {
 		border-bottom: none;
-	}
-	.members-container img {
-		
 	}
 	.new-members-area .members-text {
 		flex-grow: 1;
@@ -1000,14 +956,8 @@
 	.recent-activity-area h3 {
 		padding: 10px 0 0 20px;
 	}
-	.members-recent-activity-cards {
-		
-	}
 	.recent-activity-area .members-container {
 		display: flex;
-	}
-	.recent-activity-area .members-container img {
-		
 	}
 	.recent-activity-area .members-text {
 		flex-grow: 1;
@@ -1184,8 +1134,8 @@
 
 	.Dashboard-area .headline {
 		margin: 0;
-		padding-left: 20px;
-		width: 8%;
+		padding-left: 11px;
+		width: 15%;
 	}
 	.alert {
 		width: 98%;
@@ -1204,9 +1154,6 @@
 		margin: 0;
 		padding: 0 0 0 15px;
  	}
- 	.traffic-nav {
-	
- 	}
  	.widget-container-full {
 		margin: 0;
 		padding: 0;
@@ -1219,35 +1166,18 @@
 
 
 	/* DOUGHNUT CHART AREA */
- 	.Daily {
-		
- 	}
  	.Daily h3 {
 		width: 100%;
 		padding: 10px 0 20px 15px;
  	}
- 	.Daily .widget-container-half {
-		
- 	}
- 	.Daily #daily-chart {
-		
- 	}
 
 
 	/* MOBILE USERS CHART AREA */
- 	.mobile-users-area {
-
- 	}
 	.mobile-users-area h3 {
 		width: 100%;
 		padding: 10px 0 20px 15px;
 	}
-	.mobile-users-area .widget-container-half {
-		
-	}
-	#mobile-doughnut-chart {
-		
-	}
+	
 
 
 	/* SOCIAL STATS AREA */
@@ -1269,9 +1199,6 @@
 	}
 	.new-members-area .heading {
 		padding-left: 19px;
-	}
-	.new-members-area .members-cards {
-
 	}
 	.new-members-area .members-container {
 		height: 150px;
@@ -1297,9 +1224,6 @@
 	.recent-activity-area h3 {
 		margin: 0;
 		padding: 10px 0 10px 20px;
-	}
-	.recent-activity-area .members-recent-activity-cards {
-		
 	}
 	.recent-activity-area .members-container {
 		height: 149px;
@@ -1341,9 +1265,6 @@
 	}
 	.settings-area p {
 		font-size: 15px;
-	}
-	.settings-area .toggle {
-		
 	}
 	.settings-area .timezone { 
 		border: 1px solid black;
