@@ -667,7 +667,7 @@
 	.toggle {
 		border: 2px solid lightgrey;
 		background-color: rgb(204, 000, 000);
-		margin: 20px;
+		/* margin: 20px; */
 		width: 80px;
 		height: 30px;
 		position: relative;
@@ -780,7 +780,7 @@
 		border: 1px solid lightgrey;
 		border-radius: 7px;
 		background-color: #8282ee;
-		width: 195px;
+		width: 95%;
 		height: 55px;
 		margin: 0;
 		font-family: 'Martel-Sans', sans-serif;
@@ -792,7 +792,7 @@
 		border-radius: 7px;
 		background-color: grey;
 		color: white;
-		width: 195px;
+		width: 95%;
 		height: 55px;
 		margin: 0;
 		font-family: 'Martel-Sans', sans-serif;
@@ -1043,12 +1043,12 @@
 		grid-column: 1 / span 2;
 	}
 	.settings-area h3 {
-		padding-left: 21px;
+		padding-left: 16px;
 	}
 	.settings-area .toggle-container p {
 		font-size: 15px;
 		margin: 0;
-		padding: 4px 10px 0 18px;
+		padding: 4px 0px 0 18px;
 	}
 	.settings-area .toggle-container {
 		padding: 0;
@@ -1325,7 +1325,7 @@
 		padding: 0;
 	}
 	.message-user-area h3 {
-		padding: 10px 0 10px 23px;
+		padding: 10px 0 10px 12px;
 	}
 
 
@@ -1334,7 +1334,7 @@
 		grid-column: 2;
 	}
 	.settings-toggle-area {
-		
+		margin-bottom: 15px;
 	}
 	.settings-area .toggle-container {
 		width: 55%;
@@ -1345,6 +1345,12 @@
 	}
 	.settings-area .toggle {
 		
+	}
+	.settings-area .timezone { 
+		border: 1px solid black;
+		width: 97%;
+		margin-top: 53px;
+		margin-bottom: 13px;
 	}
 
 
