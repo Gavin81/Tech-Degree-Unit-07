@@ -210,10 +210,11 @@
 		padding: 5px 0 5px 0;
 	}
 	.traffic-nav {
+		border: ;
 		margin: 0;
-		padding: 0 0 10px 0;
+		padding: 0 0 8px 0;
 		display: flex;
-		flex-wrap: row;
+		flex-wrap: wrap;
 		list-style: none;
 	}
 	.traffic-nav .active {
@@ -834,6 +835,8 @@
 		display: grid;
 		grid-template-columns: 50%;
 	}
+
+
 	.grid-container {
 		grid-template-columns: 55px 1fr;
 		grid-template-areas: 
@@ -845,9 +848,25 @@
 		grid-column: 1 / span 2;
 	}
 	.traffic-header {
+		border: 1px solid green;
+		/* display: flex; */
+		/* justify-content: space-between; */
+		/* padding: 0 20px 0 18px; */
+		padding: 0;
+	}
+	.traffic-area h3 {
+		border: 1px solid blue;
+		margin: 0;
+		padding: 0;
+		width: 11%;
+	}
+	.traffic-nav {
+		border: 1px solid black;
+		width: 50%;
 		display: flex;
-		justify-content: space-between;
-		padding: 0 20px 0 18px;
+		flex-wrap: wrap;
+		/* justify-content: space-between; */
+		align-items: end;
 	}
 	.traffic-header ul li {
 		padding: 10px;
