@@ -92,7 +92,7 @@
 
 	/* SIDE NAVBAR */
 	.sidebar-nav-icons {
-		border: 1px solid red;
+		border: ;
 		background-color: #414177;
 		/* hsl(180, 58%, 51%) */
 		/* display: flex;
@@ -100,13 +100,14 @@
 		width: 100%; */
 	}
 	.sidebar-nav-icons ul {
-		border: 2px solid yellow;
+		border: ;
 		display: flex;
 		margin: 0;
+		padding: 0 2px 0 0;
 		width: 100%;
 	}
 	.sidebar-nav-icons li {
-		border: 1px solid orange;
+		border: ;
 		display: block;
 		list-style: none;
 		justify-content: space-evenly;
