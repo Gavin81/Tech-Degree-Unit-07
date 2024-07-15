@@ -1269,7 +1269,6 @@
 
 
 	.message-user-area {
-		border: 1px solid blue;
 		grid-column: 1;
 		margin: 0;
 		padding: 0;
@@ -1277,8 +1276,8 @@
 	.message-user-area h3 {
 		padding: 10px 0 10px 14px;
 	}
-	.message-user-area .widget-container {
-		border: 1px solid black;
+	.message-user-area .widget-container textarea {
+		margin-bottom: 37px;
 	}
 
 
