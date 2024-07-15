@@ -547,11 +547,11 @@
 		width: 100%;
 		border-top: 2px solid lightgrey;
 		border-bottom: 2px solid lightgrey;
-		padding: 13px 0 15px 0;
+		padding: 0 0 5px 0;
 	}
 	.message-user-area h3 {
 		margin: 0;
-		padding: 0 0 15px 12px;
+		padding: 15px 0 15px 9px;
 		font-family: 'Martel Sans', sans-serif;
 		font-size: 17px;
 		font-weight: 600;
@@ -1002,10 +1002,10 @@
 	/* MESSAGE USER AREA */
 	.message-user-area {
 		grid-column: 1 / span 2;
-		padding-bottom: 12px;
+		padding-bottom: 17px;
 	}
 	.message-user-area h3 {
-		padding: 0 0 10px 18px;
+		padding: 10px 0 10px 18px;
 		margin: 0;
 	}
 
@@ -1168,19 +1168,18 @@
 
 	/* TRAFFIC CHART AREA */
  	.traffic-area {
-		border: 1px solid red;
 		padding: 0 0 20px 0;
  	}
  	.traffic-header {
-		border: 1px solid black;
-		padding: 0 10px 0 0;
+		padding: 0;
 		margin: 0;
+		justify-content: space-between;
  	}
 	.traffic-area .traffic-nav {
-		border: 1px solid orange;
+		margin: 0;
+		padding: 0;
 	}
  	.traffic-area h3 {
-		border: 2px solid blue;
 		margin: 0;
 		padding: 0 0 0 15px;
  	}
@@ -1270,12 +1269,16 @@
 
 
 	.message-user-area {
-		border: 1px solid lightgrey;
+		border: 1px solid blue;
 		grid-column: 1;
+		margin: 0;
 		padding: 0;
 	}
 	.message-user-area h3 {
-		padding: 10px 0 10px 12px;
+		padding: 10px 0 10px 14px;
+	}
+	.message-user-area .widget-container {
+		border: 1px solid black;
 	}
 
 
