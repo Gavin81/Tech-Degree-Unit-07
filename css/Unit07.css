@@ -210,7 +210,6 @@
 		padding: 5px 0 5px 0;
 	}
 	.traffic-nav {
-		border: ;
 		margin: 0;
 		padding: 0 0 8px 0;
 		display: flex;
@@ -541,7 +540,7 @@
 		font-size: 17px;
 		text-align: center;
 	}
-	#members-arrow {
+	.members-arrow {
 		color: white;
 	}
 
@@ -848,25 +847,26 @@
 		grid-column: 1 / span 2;
 	}
 	.traffic-header {
-		border: 1px solid green;
-		/* display: flex; */
-		/* justify-content: space-between; */
+		border: 1px solid red;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
 		/* padding: 0 20px 0 18px; */
 		padding: 0;
 	}
 	.traffic-area h3 {
 		border: 1px solid blue;
-		margin: 0;
-		padding: 0;
-		width: 11%;
+		margin-right: auto;
+		padding: 7px 0 0 0;
+		width: auto;
 	}
 	.traffic-nav {
 		border: 1px solid black;
 		width: 50%;
-		display: flex;
-		flex-wrap: wrap;
+		/* display: flex;*/
+		/* flex-wrap: wrap; */
 		/* justify-content: space-between; */
-		align-items: end;
+		/* align-items: end; */
 	}
 	.traffic-header ul li {
 		padding: 10px;
@@ -997,6 +997,7 @@
 	}
 	.members-arrow {
 		color: black;
+		margin: 17px 0 0 0;
 		padding: 15px 0 0 0;
 		height: 40px;
 	}
@@ -1026,8 +1027,10 @@
 		padding: 4px 0px 0 18px;
 	}
 	.settings-area .toggle-container {
+		border: ;
 		padding: 0;
 		width: 49%;
+		margin: 14px 0;
 	}
 	.settings-area .toggle-container .toggle {
 		padding: 0;
@@ -1038,10 +1041,10 @@
 		padding: 5px 0 18px 0;
 	}
 	.settings-button #save {
-		width: 46.3%;
+		width: 46.0%;
 	}
 	.settings-button #cancel {
-		width: 46.3%;
+		width: 46.0%;
 	}
 
 }
