@@ -1,8 +1,8 @@
 const alertBanner = document.getElementById("alert");
-let tooltip = document.querySelector('.tooltip');
+const tooltip = document.querySelector('.tooltip');
 
 tooltip.addEventListener("click", () => {
-    
+    const tooltip = document.querySelector('.tooltip');
     if(tooltip.style.display === "none"){
         tooltip.style.display = "block";
     } else {
