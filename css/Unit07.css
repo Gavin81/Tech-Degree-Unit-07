@@ -42,7 +42,7 @@
 		justify-content: space-between;
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
+		/* overflow: hidden; */
 	}
 	.navbar .title-logo {
 		font-family: 'Martel Sans';
@@ -67,19 +67,18 @@
 		background-color: greenyellow;
 	}
 	.tooltip {
-		border: 1px solid red;
+		border: ;
 		width: 15px;
 		height: 14px;
 		margin: -9px 0 0 -19px;
 		position: relative;
 		display: inline-block;
-		border-bottom: 1px dotted black;
 	}
 	.tooltip .tooltiptext {
-		border: 2px solid blue;
+		border: 1px solid blue;
 		visibility: hidden;
 		width: 120px;
-		height: 150px;
+		height: auto;
 		background-color: black;
 		color: #fff;
 		text-align: center;
@@ -89,13 +88,13 @@
 		position: absolute;
 		z-index: 1;
 	}
-	.tooltip:hover .tooltiptext {
+	/* .tooltip:hover .tooltiptext {
 		visibility: visible;
-	}
+	} */
 	.tooltip .tooltiptext {
 		width: 120px;
 		top: 100%;
-		left: 50%;
+		left: 38%;
 		margin-left: -60px;
 	}
 	.tooltip .tooltiptext::after {
@@ -107,6 +106,12 @@
 		border-width: 5px;
 		border-style: solid;
 		border-color: transparent transparent black transparent;
+	}
+	.tooltip a {
+		margin: 0;
+		padding: 0;
+		color: white;
+		text-decoration: none;
 	}
 
 	.navbar .student img {

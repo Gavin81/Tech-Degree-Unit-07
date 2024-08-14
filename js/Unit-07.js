@@ -1,4 +1,14 @@
 const alertBanner = document.getElementById("alert");
+let tooltip = document.querySelector('.tooltip');
+
+tooltip.addEventListener("click", () => {
+    
+    if(tooltip.style.display === "none"){
+        tooltip.style.display = "block";
+    } else {
+        tooltip.style.display = "none";
+    }
+});
 
 alertBanner.innerHTML = `<div class="alert-banner">
 <p><strong>Alert:</strong> You have overdue tasks to complete</p>
