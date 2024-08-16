@@ -1,14 +1,36 @@
 const alertBanner = document.getElementById("alert");
-const tooltip = document.querySelector('.tooltip');
+const bell = document.querySelector('.bell-icon');
 
-tooltip.addEventListener("click", () => {
-    const tooltip = document.querySelector('.tooltip');
-    if(tooltip.style.display === "none"){
-        tooltip.style.display = "block";
-    } else {
-        tooltip.style.display = "none";
-    }
+
+bell.addEventListener("click", () => {
+    const tooltip = document.querySelector('.tooltip span');
+    tooltip.style.visibility = "visible";
+
+
+    // if (tooltip.style.visibility = "none") {
+    //     tooltip.style.visibility = "visible";
+    // } else {
+    //     tooltip.style.visibility = "none";
+    // }
+
+
+    // if(tooltip.style.display === "none"){
+    //     tooltip.style.display = "block";
+    // } else {
+    //     tooltip.style.display = "none";
+    // }
 });
+
+
+function alert() {
+    const button = document.querySelector('.tooltip span');
+    if(button.style.display === "none"){
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+}
+
 
 alertBanner.innerHTML = `<div class="alert-banner">
 <p><strong>Alert:</strong> You have overdue tasks to complete</p>
