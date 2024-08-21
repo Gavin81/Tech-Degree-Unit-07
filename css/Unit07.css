@@ -274,6 +274,12 @@
 		margin: 0 auto;
 		padding: 5px;
 	}
+	.widget-container-full {
+		border: 1px solid red;
+	}
+	#traffic-chart {
+		border: 1px solid blue;
+	}
 
 	
 

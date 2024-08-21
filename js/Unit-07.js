@@ -45,7 +45,7 @@ alertBanner.addEventListener('click', e => {
 });
 
 
-// Traffic: Daily / Weekly & Monthly
+// Traffic Chart: Daily / Weekly & Monthly
 let trafficCanvas = document.getElementById('traffic-chart');
 let trafficData = {
 
@@ -60,6 +60,14 @@ let trafficData = {
 
 };
 
+
+function timeFrame(period){
+    console.log(period.value);
+
+    if(period.value == 'daily'){
+
+    }
+}
 
 
 let trafficOptions = {
