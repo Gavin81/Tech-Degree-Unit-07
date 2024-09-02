@@ -45,6 +45,7 @@ alertBanner.addEventListener('click', e => {
 });
 
 
+
 // Traffic Chart: Daily / Weekly & Monthly
 let trafficCanvas = document.getElementById('traffic-chart');
 let trafficData = {
@@ -61,13 +62,29 @@ let trafficData = {
 };
 
 
+const hourly = [750, 1250, 1000, 2000, 1500, 1750, 1250, 1850, 2250,1500, 2500];
+
+const daily = [1000, 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500, 5000, 4500];
+
+const weekly = [1000, 2000, 3000, 4000, 5000, 6000, 5000, 4000, 3000, 2000, 1000];
+
+const monthly = [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 8000, 5000];
+
+
 function timeFrame(period){
     console.log(period.value);
 
-    if(period.value == 'daily'){
-
+    if(period.value == 'hourly'){
+        myChart.data.datasets[0].data = hourly;
+    } else if(period.value == 'daily') {
+        myChart.data.datasets[0].data = daily;
+    } else if(period.value == 'weekly'){
+        myChart.data.datasets[0].data = weekly;
+    } else if(period.value == 'monthly'){
+        myChart.data.datasets[0].data = monthly;
     }
 }
+
 
 
 let trafficOptions = {
@@ -78,15 +95,21 @@ let trafficOptions = {
         duration: 0
     },
     scales: {
+        x: {
+            type: 'time',
+            time: {
+                unit: 'day'
+            }
+        },
         y: {
             beginAtZero: true
         }
     },
-    plugins: {
-        legend: {
-            display: false
-        }
-    }
+    // plugins: {
+    //     legend: {
+    //         display: false
+    //     }
+    // }
 };
 
 
@@ -98,7 +121,7 @@ let trafficChart = new Chart(trafficCanvas, {
 });
 
 
-
+//Daily Traffic Area
 const dailyCanvas = document.getElementById("daily-chart");
 const dailyData = {
     labels: ["S", "M", "T", "W", "T", "F", "S"],
