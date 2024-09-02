@@ -275,10 +275,15 @@
 		padding: 5px;
 	}
 	.widget-container-full {
-		border: 1px solid red;
+		
 	}
 	#traffic-chart {
-		border: 1px solid blue;
+		
+	}
+	.traffic-nav li:hover {
+		cursor: pointer;
+		border: 1px solid green;
+		border-radius: 18px;
 	}
 
 	

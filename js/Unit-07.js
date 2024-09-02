@@ -72,17 +72,18 @@ const monthly = [2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 8000, 50
 
 
 function timeFrame(period){
-    console.log(period.value);
+    console.log(period);
 
-    if(period.value == 'hourly'){
-        myChart.data.datasets[0].data = hourly;
-    } else if(period.value == 'daily') {
-        myChart.data.datasets[0].data = daily;
-    } else if(period.value == 'weekly'){
-        myChart.data.datasets[0].data = weekly;
-    } else if(period.value == 'monthly'){
-        myChart.data.datasets[0].data = monthly;
+    if(period == 'hourly'){
+        trafficChart.data.datasets[0].data = hourly;
+    } else if(period == 'daily') {
+        trafficChart.data.datasets[0].data = daily;
+    } else if(period == 'weekly'){
+        trafficChart.data.datasets[0].data = weekly;
+    } else if(period == 'monthly'){
+        trafficChart.data.datasets[0].data = monthly;
     }
+    trafficChart.update();
 }
 
 
@@ -95,12 +96,6 @@ let trafficOptions = {
         duration: 0
     },
     scales: {
-        x: {
-            type: 'time',
-            time: {
-                unit: 'day'
-            }
-        },
         y: {
             beginAtZero: true
         }
