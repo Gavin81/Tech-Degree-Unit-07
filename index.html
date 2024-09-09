@@ -253,7 +253,15 @@
     <section class="message-user-area">
       <h3><strong>MESSAGE USER</strong></h3>
       <form class="widget-container">
-        <input type="text" placeholder="Search for User" class="form-field" id="userField">
+        <input list="members-names" type="text" placeholder="Search for User" class="form-field" id="userField">
+        <datalist id="members-names">
+          <option value="Chris"></option>
+          <option value="Steve"></option>
+          <option value="Nick Petit"></option>
+          <option value="Guil Hernandez"></option>
+          <option value="Travis Alstrand"></option>
+          <option value="Brian Jenson"></option>
+        </datalist>
         <textarea placeholder="Message for User" class="form-area" id="messageField"></textarea>
         <button class="button-primary" id="send">SEND</button>
       </form>
