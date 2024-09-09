@@ -205,3 +205,7 @@ send.addEventListener('click', () => {
 
 
 // SETTINGS AREA
+
+// Local Storage
+localStorage.setItem();
+localStorage.clearItem();
