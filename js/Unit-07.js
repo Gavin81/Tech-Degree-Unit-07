@@ -206,6 +206,24 @@ send.addEventListener('click', () => {
 
 // SETTINGS AREA
 
-// Local Storage
-localStorage.setItem();
-localStorage.clearItem();
+// Local Storage Code Area
+
+// Variable Declaration
+let email = document.querySelector('#Email');
+let profilePublic = document.querySelector('#Profile-To-Public');
+
+
+// Event Listener for email slider option
+email.addEventListener('click', function() {
+    email.toggle.classList = true;
+});
+
+
+localStorage.setItem('email', true);
+localStorage.setItem('ProfilePublic', true);
+
+
+cancel.addEventListener('click', clear){
+    const cancel = document.querySelector('#cancel');
+    localStorage.clear();
+}
