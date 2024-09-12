@@ -218,6 +218,13 @@ email.addEventListener('click', function() {
     email.toggle.classList = true;
 });
 
+profilePublic.addEventListener('click', function(){
+    profilePublic.toggle.classList = true;
+});
+
+if(email.checked){
+    localStorage.change.classList = true;
+}
 
 localStorage.setItem('email', true);
 localStorage.setItem('ProfilePublic', true);
