@@ -223,7 +223,8 @@ localStorage.setItem('email', true);
 localStorage.setItem('ProfilePublic', true);
 
 
+// This is the 'press the cancel button to clear local storage'.
 cancel.addEventListener('click', clear){
     const cancel = document.querySelector('#cancel');
-    localStorage.clear();
+    window.localStorage.clear();
 }
