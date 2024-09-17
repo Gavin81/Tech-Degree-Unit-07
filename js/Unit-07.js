@@ -245,7 +245,15 @@ save.addEventListener('click', () => {
 // This is the 'press the cancel button to clear local storage'.
 cancel.addEventListener('click', () => {
     const cancel = document.querySelector('#cancel');
+    let emailToggle = document.querySelector('.toggle-container #Email');
+    let profileToggle = document.querySelector('#Profile-To-Public');
+    let timezoneToggle = document.querySelector('#timezone');
+
     localStorage.removeItem('email');
     localStorage.removeItem('profilePublic');
     localStorage.removeItem('timezone');
+
+    emailToggle.checked = false;
+    profileToggle.checked = false;
+    timezoneToggle.value = 'Default';
 });
