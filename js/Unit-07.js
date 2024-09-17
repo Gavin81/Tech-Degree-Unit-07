@@ -211,27 +211,37 @@ send.addEventListener('click', () => {
 // Variable Declaration
 let email = document.querySelector('#Email');
 let profilePublic = document.querySelector('#Profile-To-Public');
+let timezone = document.querySelector('#timezone');
 
 
-// Event Listener for email slider option
+// Event Listener for email slider option. This is one way to attempt, I think.
 email.addEventListener('click', function() {
     email.toggle.classList = true;
 });
+
+
 
 profilePublic.addEventListener('click', function(){
     profilePublic.toggle.classList = true;
 });
 
+
+
 if(email.checked){
     localStorage.change.classList = true;
 }
 
-localStorage.setItem('email', true);
-localStorage.setItem('ProfilePublic', true);
+
+// Setting the local storage with setItem() method.
+localStorage.setItem('email', 'true');
+localStorage.setItem('ProfilePublic', 'true');
+localStorage.setItem('timezone', 'true');
 
 
 // This is the 'press the cancel button to clear local storage'.
-cancel.addEventListener('click', clear){
+cancel.addEventListener('click', () => {
     const cancel = document.querySelector('#cancel');
-    window.localStorage.clear();
-}
+    localStorage.removeItem('email');
+    localStorage.removeItem('ProfileToPublic');
+    localStorage.removeItem('timezone');
+});
