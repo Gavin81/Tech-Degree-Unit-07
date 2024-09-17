@@ -238,7 +238,7 @@ save.addEventListener('click', () => {
     const save = document.querySelector('#save');
     localStorage.setItem('email', JSON.stringify(email.checked));
     localStorage.setItem('profilePublic', JSON.stringify(profilePublic.checked));
-    localStorage.setItem('timezone', 'Western');
+    localStorage.setItem('timezone', '');
 });
 
 
