@@ -212,6 +212,7 @@ send.addEventListener('click', () => {
 let email = document.querySelector('#Email');
 let profilePublic = document.querySelector('#Profile-To-Public');
 let timezone = document.querySelector('#timezone');
+let save = document.querySelector('#save');
 
 
 // Event Listener for email slider option. This is one way to attempt, I think.
@@ -233,9 +234,12 @@ let timezone = document.querySelector('#timezone');
 
 
 // Setting the local storage with setItem() method.
-localStorage.setItem('email', JSON.stringify(email.checked));
-localStorage.setItem('profilePublic', JSON.stringify(profilePublic.checked));
-localStorage.setItem('timezone', 'Western');
+save.addEventListener('click', () => {
+    const save = document.querySelector('#save');
+    localStorage.setItem('email', JSON.stringify(email.checked));
+    localStorage.setItem('profilePublic', JSON.stringify(profilePublic.checked));
+    localStorage.setItem('timezone', 'Western');
+});
 
 
 // This is the 'press the cancel button to clear local storage'.
