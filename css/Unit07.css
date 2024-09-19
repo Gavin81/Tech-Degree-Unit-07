@@ -55,8 +55,9 @@
 		font-size: 9px;
 	}
 	.navbar .bell-icon {
-		margin: 0px -50px 0 0;
-		padding: 15px 10px 0 10px;
+		margin: 0 -20px 0 0;
+		padding: 15px 10px 30px 10px;
+		height: 40px;
 	}
 	#notifications {
 		position: relative;
@@ -114,26 +115,30 @@
 	}
 
 	.navbar .student img {
+		border-left: 1px solid black;
 		border-radius: 20px 20px;
 		height: 40px;
 		width: 40px;
 		margin: 8px 8px;
 	}
 	.navbar .student {
+		/* border: 1px solid red; */
 		border-left: 1px solid hsl(0, 4%, 64%);
 		border-width: 1px;
 		display: flex;
 		align-items: center;
 		color: whitesmoke;
 		font-family: 'Martel Sans';
-		font-size: 14px;
-		margin: 10px 0 0px 0;
-		padding: 0px 10px 0 40px;
-		width: auto;
+		font-size: 12px;
+		margin: 10px 0 0 0;
+		padding: 0 10px 0 0;
 		height: 40px;
+		/* margin: 10px 0 0px 0; */
+		/* padding: 0px 10px 0 40px; */
+		/* width: auto; */
+		/* height: 40px; */
 	}
-	/* ................................. */
-
+	
 
 
 	/* SIDE NAVBAR */
@@ -847,6 +852,11 @@
 	}
 	.navbar #item-3 {
 		padding-left: 0;
+	}
+
+	.navbar .student {
+		border: 1px solid black;
+		border-left: ;
 	}
 
 
