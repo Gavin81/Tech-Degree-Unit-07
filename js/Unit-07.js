@@ -208,46 +208,29 @@ send.addEventListener('click', () => {
 
 // Local Storage Code Area
 
-// Variable Declaration
-
 function setValues(){
     //Email toggle
-    const emailToggle = localStorage.getItem("Email");
+    const emailToggle = localStorage.getItem("email");
     //Profile public toggle
-    const publicToggle = localStorage.getItem("Profile-To-Public");
+    const publicToggle = localStorage.getItem("profilePublic");
     //Timezone dropdown list
     const timezoneList = localStorage.getItem("timezone");
 
-    document.getElementById("Email").value = emailToggle;
-    document.getElementById("Profile-To-Public").value = publicToggle;
+    document.getElementById("Email").checked = emailToggle;
+    document.getElementById("Profile-To-Public").checked = publicToggle;
     document.getElementById("timezone").value = timezoneList;
 
-    email.input.value = `#${emailToggle}`;
-    Profile-To-Public.input.value = publicToggle;
-    timezone.value = timezoneList;
+    // email.input.value = `#${emailToggle}`;
+    // Profile-To-Public.input.value = publicToggle;
+    // timezone.value = timezoneList;
 }
 
-    // let email = document.querySelector('#Email');
-    // let profilePublic = document.querySelector('#Profile-To-Public');
-    // let timezone = document.querySelector('#timezone');
-    // let save = document.querySelector('#save');
+setValues();
 
-// Event Listener for email slider option. This is one way to attempt, I think.
-// email.addEventListener('click', function() {
-//     email.toggle.classList = true;
-// });
-
-
-
-// profilePublic.addEventListener('click', function(){
-//     profilePublic.toggle.classList = true;
-// });
-
-
-
-// if(email.checked){
-//     localStorage.change.classList = true;
-// }
+let email = document.querySelector('#Email');
+let profilePublic = document.querySelector('#Profile-To-Public');
+let timezone = document.querySelector('#timezone');
+let save = document.querySelector('#save');
 
 
 // Setting the local storage with setItem() method.
@@ -256,6 +239,8 @@ save.addEventListener('click', () => {
     localStorage.setItem('email', JSON.stringify(email.checked));
     localStorage.setItem('profilePublic', JSON.stringify(profilePublic.checked));
     localStorage.setItem('timezone', timezone.value);
+
+    console.log(localStorage);
 });
 
 
