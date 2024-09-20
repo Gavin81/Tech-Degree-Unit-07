@@ -115,14 +115,12 @@
 	}
 
 	.navbar .student img {
-		border-left: 1px solid black;
 		border-radius: 20px 20px;
 		height: 40px;
 		width: 40px;
 		margin: 8px 8px;
 	}
 	.navbar .student {
-		/* border: 1px solid red; */
 		border-left: 1px solid hsl(0, 4%, 64%);
 		border-width: 1px;
 		display: flex;
@@ -854,10 +852,6 @@
 		padding-left: 0;
 	}
 
-	.navbar .student {
-		border: 1px solid black;
-		border-left: ;
-	}
 
 
 	/* The Side Nav */
@@ -1356,8 +1350,8 @@
 		margin-bottom: 15px;
 	}
 	.settings-area .toggle-container {
-		width: 55%;
-		padding-left: 2px;
+		width: 60%;
+		padding: 0;
 	}
 	.settings-area p {
 		font-size: 15px;
