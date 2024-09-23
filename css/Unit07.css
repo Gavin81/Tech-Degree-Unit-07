@@ -890,6 +890,7 @@
 
 	/* SETTINGS BUTTON AREA */
 	.settings-button {
+		border: 1px solid red;
 		margin: 0 auto;
 		word-spacing: 18px;
 		text-align: center;
@@ -899,7 +900,7 @@
 		border: 1px solid lightgrey;
 		border-radius: 7px;
 		background-color: #8282ee;
-		width: 95%;
+		width: 44%;
 		height: 55px;
 		margin: 0;
 		font-family: 'Martel-Sans', sans-serif;
@@ -911,7 +912,7 @@
 		border-radius: 7px;
 		background-color: grey;
 		color: white;
-		width: 95%;
+		width: 44%;
 		height: 55px;
 		margin: 0;
 		font-family: 'Martel-Sans', sans-serif;
@@ -1440,10 +1441,14 @@
 
 
 	.settings-area {
-		border: 1px solid lightgrey;
+		border: 1px solid red;
 		grid-column: 2;
 	}
+	.settings-area h3 {
+		border: 1px solid blue;
+	}
 	.settings-toggle-area {
+		border: 1px solid green;
 		margin-bottom: 15px;
 	}
 	.settings-area .toggle-container {
@@ -1454,9 +1459,15 @@
 		font-size: 15px;
 	}
 	.settings-area .timezone {
+		border: 2px solid orange;
 		width: 97%;
 		margin-top: 53px;
 		margin-bottom: 13px;
+	}
+	.settings-button {
+		border: 1px solid black;
+		padding: 0;
+		margin: 0;
 	}
 
 
