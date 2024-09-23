@@ -1435,19 +1435,22 @@
 		padding: 10px 0 10px 14px;
 	}
 	.message-user-area .widget-container textarea {
-		margin-bottom: 37px;
+		
+	}
+	.message-user-area #send {
+		margin: 10px 0 10px 0;
 	}
 
 
+	/* Settings Area */
 	.settings-area {
-		border: 1px solid red;
+		border: 1px solid lightgrey;
 		grid-column: 2;
 	}
 	.settings-area h3 {
-		border: 1px solid blue;
+
 	}
 	.settings-toggle-area {
-		border: 1px solid green;
 		margin-bottom: 15px;
 	}
 	.settings-area .toggle-container {
@@ -1458,13 +1461,11 @@
 		font-size: 15px;
 	}
 	.settings-area .timezone {
-		border: 2px solid orange;
 		width: 97%;
-		margin-top: 53px;
+		margin-top: 64px;
 		margin-bottom: 13px;
 	}
 	.settings-button {
-		border: 1px solid black;
 		padding: 0;
 		margin: 0;
 	}
