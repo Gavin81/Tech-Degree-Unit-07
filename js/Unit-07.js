@@ -22,7 +22,7 @@ bell.addEventListener("click", () => {
 });
 
 
-function alert() {
+function bellNotifications() {
     const button = document.querySelector('.tooltip span');
     if(button.style.display === "none"){
         button.style.display = "block";
@@ -198,7 +198,7 @@ send.addEventListener('click', () => {
     } else if (message.value === ""){
         alert("Please fill in the message field before sending");
     } else {
-        alert("Message successfully sent to: ${user.value}");
+        alert(`Message successfully sent to: ${user.value}`);
     }
 });
 
@@ -245,8 +245,8 @@ save.addEventListener('click', () => {
 
 
 // This is the 'press the cancel button to clear local storage'.
+const cancel = document.querySelector('#cancel');
 cancel.addEventListener('click', () => {
-    const cancel = document.querySelector('#cancel');
     let emailToggle = document.querySelector('.toggle-container #Email');
     let profileToggle = document.querySelector('#Profile-To-Public');
     let timezoneToggle = document.querySelector('#timezone');
