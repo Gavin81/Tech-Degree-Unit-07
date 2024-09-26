@@ -99,12 +99,7 @@ let trafficOptions = {
         y: {
             beginAtZero: true
         }
-    },
-    // plugins: {
-    //     legend: {
-    //         display: false
-    //     }
-    // }
+    }
 };
 
 
@@ -219,10 +214,6 @@ function setValues(){
     document.getElementById("Email").checked = emailToggle;
     document.getElementById("Profile-To-Public").checked = publicToggle;
     document.getElementById("timezone").value = timezoneList;
-
-    // email.input.value = `#${emailToggle}`;
-    // Profile-To-Public.input.value = publicToggle;
-    // timezone.value = timezoneList;
 }
 
 setValues();
